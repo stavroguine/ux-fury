@@ -1,0 +1,21 @@
+/*
+* Home
+*/
+
+.home {
+
+
+
+  &__splash {
+    background-image: url("/assets/splash.jpg");
+    height: 80vh;
+
+    h1 {
+      text-transform: uppercase;
+    }
+
+    &--content {
+      display: inline-block;
+    }
+  }
+}
