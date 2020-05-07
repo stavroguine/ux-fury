@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
-
+import { Link } from 'react-router-dom';
 class Home extends Component {
     render() {
         return (
@@ -11,22 +10,26 @@ class Home extends Component {
                             <div className="sol-sm-12 my-auto ">
                                 <div className="home__splash--content align-middle">
                                     <div className="home__splash--title">
-                                        <h1>La fureur de l'UX</h1>
+                                        <img src="/assets/quote.svg"/>
+                                            <h1>La fureur de l'UX</h1>
+                                        <img src="/assets/quote.svg"/>
                                     </div>
                                     <div className="home__splash--social">
-                                        <span>Mail</span>
-                                        <span>Linkedin</span>
-                                        <span>Instagram</span>
-                                        <span>Youtube</span>
+                                        <ul>
+                                            <li>Mail</li>
+                                            <li>Linkedin</li>
+                                            <li>Instagram</li>
+                                            <li>Youtube</li>
+                                        </ul>
                                     </div>
-                                    <button className="button">Découvrir mon parcours</button>
+                                    <button className="button"><Link to='/career'>Découvrir mon parcours</Link></button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section id="topProjects" className="home__topProjects">
-                    <div className="container h-100">
+                    <div className="container">
                         <div className="row h-100">
                             <div className="sol-sm-12">
                                 <div className="home__topProjects--title">
@@ -35,16 +38,18 @@ class Home extends Component {
                             </div>
                         </div>
                         <div className="row h-100">
-                            <div className="col-sm-12 col-md-6 pl-0">
+                            <div className="col-sm-12 col-md-6">
                                 <div className="home__topProjects--tdf">
-                                    <img src="/assets/TDF_home.png" />
-                                    <label>TDF, l'intranet communautaire</label>
+                                    <img src="/assets/TDF_home.png" className="img-fluid" />
+                                    <div className="black-opacity"></div>
+                                    <span >TDF, l'intranet communautaire</span>
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6">
                                 <div className="home__topProjects--ffyn">
-                                    <img src="/assets/ffyn.png" />
-                                    <label>FFYN, le pont entre l'investisseur et l'asset manager</label>
+                                    <img src="/assets/ffyn.png" className="img-fluid" />
+                                    <div className="black-opacity"></div>
+                                    <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +68,7 @@ class Home extends Component {
                             </div>
                         </div>
                         <div className="row h-100">
-                            <div className="sol-sm-12 col-md-3 pl-0">
+                            <div className="sol-sm-0 col-md-2 pl-0">
                             </div>
                             <div className="sol-sm-12 col-md-3 pl-0">
                                 <h3>UX</h3>
