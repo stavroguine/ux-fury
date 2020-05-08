@@ -1,13 +1,13 @@
-FROM mhart/alpine-node:12
+FROM node:12-alpine as builder
+# Get the necessary build tools
+RUN apk update && apk add build-base autoconf automake libtool pkgconfig nasm
 
-RUN mkdir -p /opt/ux-fury
-WORKDIR /opt/ux-fury
+# Add the package.json file and build the node_modules folder
+WORKDIR /app
+COPY ./package*.json ./
+RUN mkdir node_modules && npm install
 
-COPY package.json /opt/ux-fury
-COPY yarn.lock /opt/ux-fury
-
-RUN yarn install
-
-COPY . /opt/ux-fury
-
-CMD ["yarn", "start"]
+# Get a clean image with gatsby-cli and the pre-built node modules
+FROM node:12-alpine
+RUN npm install --global gatsby-cli && gatsby telemetry --disable && mkdir /save
+COPY --from=builder /app/node_modules /save/node_modules
