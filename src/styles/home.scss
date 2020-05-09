@@ -1,0 +1,155 @@
+/*
+** Colors
+**/
+
+$color-top-tools: #922e63;
+$color-home-button: #4daa16;
+$color-home-splash: #e3cc40;
+
+/*
+** Home
+**/
+
+.home {
+
+  h2 {
+    font-family: "Antenna Cond Regular" ;
+    font-size: 28px;
+  }
+
+  .button {
+    background-color: transparent;
+    border-radius: 15px;
+    border: solid 2px $color-home-button;
+    color: $color-home-button;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+    a {
+      color: $color-home-button;
+      text-decoration: none;
+      :visited {
+        color: $color-home-button;
+      }
+      :hover {
+        color: $color-home-button;
+      }
+    }
+  }
+
+
+
+  &__splash {
+    background-image: url("../images/splash.png");
+    background-repeat: no-repeat;
+    overflow: auto;
+    height: 80vh;
+
+    h1 {
+      font-family: "Antenna Cond Regular" ;
+      font-size: 40px;
+      margin-left: 4vh;
+      text-transform: uppercase;
+    }
+
+    &--content {
+      display: inline-block;
+      button {
+        margin-left: 8vh;
+      }
+    }
+
+    &--title {
+      width: 55vh;
+
+      img {
+        display: inline;
+        height: 17px;
+        width: 24px;
+
+        &:first-child {
+          float: left;
+          transform: rotate(180deg);
+        }
+
+        &:nth-child(3) {
+          float: right;
+          margin-right: 4vh;
+          margin-top: -2vh;
+
+        }
+      }
+    }
+
+    &--social {
+      ul {
+        //padding: 0;
+        overflow: hidden;
+        li {
+          float: left;
+          font-size: 20px;
+          list-style-type: none;
+          padding-right: 5vh;
+        }
+      }
+    }
+  }
+
+  &__topProjects {
+
+    .black-opacity {
+      background-color: black;
+      height: 396px;
+      position: absolute;
+      opacity: 0.2;
+      width: 530px;
+    }
+
+    img {
+      height: 100%;
+      position: absolute;
+      width: 100%;
+    }
+
+    span {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 90%;
+    }
+
+    &--tdf {
+      height: 396px;
+      position: relative;
+      width: 530px;
+    }
+
+    &--ffyn {
+      height: 396px;
+      position: relative;
+      width: 530px;
+    }
+  }
+
+  &__topTools {
+    background-color: $color-top-tools;
+    color: white;
+
+    h3 {
+      text-transform: uppercase;
+    }
+
+    ul, li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+/*
+** Colors
+**/
+
+$bio-background-color: #2F7B27;
+
+/*
+** Home
+**/
+
+.career {
+  &__splash {
+    background-image: url("../images/career/1-gratisography.png");
+    height: 54vh;
+    width: 100vw;
+
+      &--title {
+        color: white;
+      }
+  }
+
+  &__bio {
+
+    background-color: $bio-background-color;
+    height: 80vh;
+    width: 100vw;
+
+    &--face {
+      position: absolute;
+      top: 13%;
+      img {
+
+        height: 568px;
+        width: 568px;
+      }
+    }
+    &--speech {
+      color: white;
+      position: inherit;
+      top: 25%;
+    }
+
+  }
+}

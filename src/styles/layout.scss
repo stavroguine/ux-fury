@@ -1,0 +1,41 @@
+/*
+** Fonts
+**/
+
+@font-face {
+  font-family: 'Antenna Cond Regular';
+  src: url(../components/fonts/FordAntenna-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura lt bt';
+  src: url(../components/fonts/futura-light-bt.ttf) format('truetype');
+}
+
+
+
+/*
+** Main
+**/
+
+.main-container {
+  font-family: "Futura lt bt";
+}
+
+
+/*
+** Footer
+**/
+
+.footer {
+  ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    li {
+      float: left;
+      padding-right: 10vh;
+    }
+  }
+}
+

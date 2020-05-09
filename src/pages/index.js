@@ -2,12 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+
 import SEO from "../components/seo"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import quote from '../images/quote.svg';
 import TDF_home from '../images/TDF_home.png';
 import ffyn from '../images/ffyn.png';
+import '../styles/home.scss';
 
 const IndexPage = () => (
   <Layout>
@@ -47,16 +48,14 @@ const IndexPage = () => (
                       </div>
                   </div>
                   <div className="row h-100">
-                      <div className="col-sm-12 col-md-5">
+                      <div className="col-sm-12 col-md-6">
                           <div className="home__topProjects--tdf">
                               <img src={TDF_home} className="img-fluid" />
                               <div className="black-opacity"></div>
                               <span >TDF, l'intranet communautaire</span>
                           </div>
                       </div>
-                      <div className="col-md-2">
-                      </div>
-                      <div className="col-sm-12 col-md-5">
+                      <div className="col-sm-12 col-md-6">
                           <div className="home__topProjects--ffyn">
                               <img src={ffyn} className="img-fluid" />
                               <div className="black-opacity"></div>
