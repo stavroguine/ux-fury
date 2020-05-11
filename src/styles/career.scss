@@ -3,14 +3,17 @@
 **/
 
 $bio-background-color: #2F7B27;
+$recap-background-color: #226D84;
 
 /*
-** Home
+** Career
 **/
 
 .career {
   &__splash {
     background-image: url("../images/career/1-gratisography.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 54vh;
     width: 100vw;
 
@@ -20,25 +23,40 @@ $bio-background-color: #2F7B27;
   }
 
   &__bio {
-
+    overflow: hidden;
     background-color: $bio-background-color;
     height: 80vh;
+    position: relative;
     width: 100vw;
-
+    @media (max-width: 1368px) { height: 92vh; }
     &--face {
-      position: absolute;
-      top: 13%;
+      position: relative;
       img {
-
-        height: 568px;
-        width: 568px;
+        height: auto;
+        width: auto;
       }
     }
     &--speech {
       color: white;
-      position: inherit;
-      top: 25%;
-    }
 
+    }
+  }
+
+  &__journey {
+    &--step {
+      text-align: center;
+    }
+  }
+
+  &__recap {
+    background-color: #226D84;
+    color: white;
+    height: 80vh;
+    width: 100vw;
+
+    p {
+      width: 50%;
+    }
   }
 }
+
