@@ -1,0 +1,22 @@
+/*
+** Colors
+**/
+
+
+/*
+** Projects
+**/
+
+.projects {
+  &__splash {
+    background-image: url("../images/projects/1-gratisography.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54vh;
+    width: 100vw;
+
+    &--title {
+      color: white;
+    }
+  }
+}

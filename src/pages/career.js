@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Background from "../components/background"
 import SEO from "../components/seo"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/career.scss';
@@ -21,7 +21,9 @@ const CareerPage = () => (
     <Layout>
 
         <SEO title="Career" />
+
         <main className="career" >
+
             <section id="careerSplash" className="career__splash">
                 <div className="container h-100">
                     <div className="row h-100">
@@ -36,33 +38,32 @@ const CareerPage = () => (
                 </div>
             </section>
             <section id="bio" className="career__bio ">
-                <div className="container h-100 ">
-                    <div className="row h-100 align-items-center">
-                        <div className="col-sm-12 col-md-6  ">
-                            <div className="career__bio--face">
-                                <img src={photo} className="img-fluid content"  />
-                            </div>
-                        </div>
-                        <div className="col-sm-12 col-md-6 pl-5">
-                            <div className="career__bio--speech">
-                                <h2>Qui suis-je ?</h2>
-                                <span>Gaëlle</span>
-                                <p>
-                                    Cinéma, mode, vidéos, publicité, monde de la télévision et
-                                    même jeux vidéo: c’est tout ce qui me définit. Mais je cache autre chose sous mon chapeau : de la sociologie, de
-                                    l’anthropologie, une passion inégalée pour l’Histoire, pour
-                                    les mythes (surtout grecques) ainsi que l’analyse de donnée
-                                    et les statistiques. J’aime comprendre pourquoi mais surtout comment on en arrive à une situation donnée.
-                                </p>
-                                <p>
-                                    C’est pourquoi je me suis lancée dans la voie de l’UX
-                                    design et de la compréhension de l’utilisateur. Lui définir un joli environnement, une expérience facile à prendre en main, lui permettre de lui simplifier la vie, tels sont mes
-                                    mojos!
-                                </p>
-                            </div>
+                <Background>
+                    <div className="col-sm-12 col-md-6  ">
+                        <div className="career__bio--face">
+                            <img src={photo} className="img-fluid content"  />
                         </div>
                     </div>
-                </div>
+                    <div className="col-sm-12 col-md-6 pl-5">
+                        <div className="career__bio--speech">
+                            <h2>Qui suis-je ?</h2>
+                            <span>Gaëlle</span>
+                            <p>
+                                Cinéma, mode, vidéos, publicité, monde de la télévision et
+                                même jeux vidéo: c’est tout ce qui me définit. Mais je cache autre chose sous mon chapeau : de la sociologie, de
+                                l’anthropologie, une passion inégalée pour l’Histoire, pour
+                                les mythes (surtout grecques) ainsi que l’analyse de donnée
+                                et les statistiques. J’aime comprendre pourquoi mais surtout comment on en arrive à une situation donnée.
+                            </p>
+                            <p>
+                                C’est pourquoi je me suis lancée dans la voie de l’UX
+                                design et de la compréhension de l’utilisateur. Lui définir un joli environnement, une expérience facile à prendre en main, lui permettre de lui simplifier la vie, tels sont mes
+                                mojos!
+                            </p>
+                        </div>
+                    </div>
+                </Background>
+
             </section>
             <section id="journey" className="career__journey">
                 <div className="container" >
@@ -136,8 +137,7 @@ const CareerPage = () => (
                 </div>
             </section>
             <section id="recap" className="career__recap">
-                <div className="container h-100">
-                    <div className="row align-items-center h-100">
+                    <Background>
                         <div className="col-sm-12 col-md-12">
                             <div className="career__recap--speech ">
                                 <h2>Où je veux aller</h2>
@@ -153,8 +153,7 @@ const CareerPage = () => (
                                 </p>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </Background>
             </section>
         </main>
     </Layout>

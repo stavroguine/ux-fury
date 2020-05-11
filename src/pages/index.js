@@ -64,7 +64,7 @@ const IndexPage = () => (
                       </div>
                   </div>
                   <div className="row">
-                      <button className="button mx-auto">Voir tous mes projets</button>
+                      <button className="button mx-auto"><Link to='/projects'>Voir tous mes projets</Link></button>
                   </div>
               </div>
           </section>
