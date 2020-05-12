@@ -9,6 +9,7 @@ import quote from '../images/quote.svg';
 import TDF_home from '../images/TDF_home.png';
 import ffyn from '../images/ffyn.png';
 import '../styles/home.scss';
+import BlackOpacity from "../components/black-opacity";
 
 const IndexPage = () => (
   <Layout>
@@ -17,7 +18,7 @@ const IndexPage = () => (
           <section id="splashScreen" className="home__splash">
               <div className="container h-100">
                   <div className="row h-100">
-                      <div className="sol-sm-12 my-auto ">
+                      <div className="col-sm-12 my-auto ">
                           <div className="home__splash--content align-middle">
                               <div className="home__splash--title">
                                   <img src={quote}/>
@@ -51,14 +52,14 @@ const IndexPage = () => (
                       <div className="col-sm-12 col-md-6">
                           <div className="home__topProjects--tdf">
                               <img src={TDF_home} className="img-fluid" />
-                              <div className="black-opacity"></div>
+                              <BlackOpacity/>
                               <span >TDF, l'intranet communautaire</span>
                           </div>
                       </div>
                       <div className="col-sm-12 col-md-6">
                           <div className="home__topProjects--ffyn">
                               <img src={ffyn} className="img-fluid" />
-                              <div className="black-opacity"></div>
+                              <BlackOpacity/>
                               <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
                           </div>
                       </div>

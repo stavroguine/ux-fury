@@ -1,0 +1,23 @@
+@import "src/styles/colors";
+
+
+/*
+** Tdf
+**/
+
+.tdf {
+  &__splash {
+    height: 54vh;
+    width: 100vw;
+
+    &--title {
+      color: white;
+    }
+
+  }
+
+  &__intro {
+    background-color: $prune;
+    color: white;
+  }
+}

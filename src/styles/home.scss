@@ -1,17 +1,10 @@
-/*
-** Colors
-**/
-
-$color-top-tools: #922e63;
-$color-home-button: #4daa16;
-$color-home-splash: #e3cc40;
+@import "src/styles/colors";
 
 /*
 ** Home
 **/
 
 .home {
-
   h2 {
     font-family: "Antenna Cond Regular" ;
     font-size: 28px;
@@ -20,8 +13,8 @@ $color-home-splash: #e3cc40;
   .button {
     background-color: transparent;
     border-radius: 15px;
-    border: solid 2px $color-home-button;
-    color: $color-home-button;
+    border: solid 2px $green;
+    color: $green;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 1px;
@@ -33,13 +26,13 @@ $color-home-splash: #e3cc40;
     font-size: 20px;
 
     a {
-      color: $color-home-button;
+      color: $green;
       text-decoration: none;
       :visited {
-        color: $color-home-button;
+        color: $green;
       }
       :hover {
-        color: $color-home-button;
+        color: $green;
       }
     }
   }
@@ -83,7 +76,6 @@ $color-home-splash: #e3cc40;
           float: right;
           margin-right: 4vh;
           margin-top: -2vh;
-
         }
       }
     }
@@ -103,14 +95,6 @@ $color-home-splash: #e3cc40;
   }
 
   &__topProjects {
-
-    .black-opacity {
-      background-color: black;
-      height: 396px;
-      position: absolute;
-      opacity: 0.2;
-      width: 530px;
-    }
 
     img {
       height: 100%;
@@ -139,7 +123,7 @@ $color-home-splash: #e3cc40;
   }
 
   &__topTools {
-    background-color: $color-top-tools;
+    background-color: $prune;
     color: white;
 
     h3 {

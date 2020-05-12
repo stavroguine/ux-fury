@@ -1,9 +1,4 @@
-/*
-** Colors
-**/
-
-$bio-background-color: #2F7B27;
-$recap-background-color: #226D84;
+@import "src/styles/colors";
 
 /*
 ** Career
@@ -24,7 +19,7 @@ $recap-background-color: #226D84;
 
   &__bio {
     overflow: hidden;
-    background-color: $bio-background-color;
+    background-color: $green;
     height: 80vh;
     position: relative;
     width: 100vw;

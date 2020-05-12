@@ -1,9 +1,4 @@
 /*
-** Colors
-**/
-
-
-/*
 ** Projects
 **/
 
@@ -18,5 +13,28 @@
     &--title {
       color: white;
     }
+  }
+
+  &__overview {
+    img {
+      height: 100%;
+      position: absolute;
+      width: 100%;
+    }
+
+    span {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 90%;
+    }
+
+  &--item {
+      height: 396px;
+      position: relative;
+      width: 530px;
+    }
+
+
   }
 }
