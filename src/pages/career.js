@@ -17,13 +17,9 @@ import 'aos/dist/aos.css';
 AOS.init();
 
 const CareerPage = () => (
-
     <Layout>
-
         <SEO title="Career" />
-
         <main className="career" >
-
             <section id="careerSplash" className="career__splash">
                 <div className="container h-100">
                     <div className="row h-100">
@@ -37,7 +33,7 @@ const CareerPage = () => (
                     </div>
                 </div>
             </section>
-            <section id="bio" className="career__bio ">
+            <section id="carrerBio" className="career__bio ">
                 <Background>
                     <div className="col-sm-12 col-md-6  ">
                         <div className="career__bio--face">
@@ -136,7 +132,7 @@ const CareerPage = () => (
                     </div>
                 </div>
             </section>
-            <section id="recap" className="career__recap">
+            <section id="careerRecap" className="career__recap">
                     <Background>
                         <div className="col-sm-12 col-md-12">
                             <div className="career__recap--speech ">

@@ -30,7 +30,6 @@ const ProjectsPage = () => (
             </section>
             <section id="projectsOverview" className="projects__overview">
                 <div className="container">
-
                     <div className="row h-100 mt-5">
                         <div className="col-sm-12 col-md-6">
                             <Link to='/projects/tdf'>
@@ -42,11 +41,13 @@ const ProjectsPage = () => (
                             </Link>
                         </div>
                         <div className="col-sm-12 col-md-6">
-                            <div className="projects__overview--item">
-                                <img src={ffyn} className="img-fluid" />
-                                <BlackOpacity/>
-                                <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
-                            </div>
+                            <Link to='/projects/ffyn'>
+                                <div className="projects__overview--item">
+                                    <img src={ffyn} className="img-fluid" />
+                                    <BlackOpacity/>
+                                    <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                     <div className="row h-100 mt-5">

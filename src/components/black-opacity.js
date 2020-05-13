@@ -1,6 +1,6 @@
 import React from "react"
 
-const BlackOpacity = props  => (
+const BlackOpacity = ()  => (
     <div className="black-opacity"
          style={{
              backgroundColor: `black`,

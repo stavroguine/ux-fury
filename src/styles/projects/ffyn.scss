@@ -1,12 +1,16 @@
 @import "src/styles/colors";
 
 /*
-** Tdf
+** Ffyn
 **/
 
-.tdf {
+.ffyn {
   &__splash {
-    background-color: $white-back;
+
+    background-image: url("../../images/projects/ffyn/1-Ffyn - Splash - tFHD.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 54vh;
     width: 100vw;
 
@@ -17,7 +21,7 @@
   }
 
   &__intro {
-    background-color: $prune;
+    background-color: $blue;
     color: white;
     margin-bottom: 50px;
   }
