@@ -6,38 +6,73 @@
 
 .ffyn {
   &__splash {
-
     background-image: url("../../images/projects/ffyn/1-Ffyn - Splash - tFHD.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 54vh;
-    width: 100vw;
+    width: 99.1vw;
 
     &--title {
       color: black;
     }
-
   }
 
   &__intro {
     background-color: $blue;
     color: white;
     margin-bottom: 50px;
+
+    h2 {
+      margin-top: 60px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin-bottom: 60px;
+    }
+
   }
 
   &__steps {
+    h3 {
+      margin-bottom: 50px;
+    }
+
+    ul,li {
+
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .highlight {
+      color: $green;
+    }
+
+    .img-step {
+      height: 320px;
+      width: 570px;
+      &:first-child {
+        bottom: 0;
+        position: absolute;
+      }
+      &:nth-child(3) {
+        bottom: 0;
+        position: absolute;
+      }
+    }
+
     &--item {
       margin-top: 50px;
     }
   }
 
   &__recap {
-    background-color: $green;
+    background-color: $prune;
     color: white;
     margin-top: 50px;
     height: 60vh;
-    width: 100vw;
+    width: 99.1vw;
 
     p {
       width: 50%;

@@ -52,18 +52,22 @@ const ProjectsPage = () => (
                     </div>
                     <div className="row h-100 mt-5">
                         <div className="col-sm-12 col-md-6">
+                            <Link to='/projects/daradja'>
                             <div className="projects__overview--item">
                                 <img src={daradja} className="img-fluid" />
                                 <BlackOpacity/>
                                 <span >Daradja, un outil de prise de rendez-vous</span>
                             </div>
+                            </Link>
                         </div>
                         <div className="col-sm-12 col-md-6">
+                            <Link to='/projects/penelope'>
                             <div className="projects__overview--item">
                                 <img src={penelope} className="img-fluid" />
                                 <BlackOpacity/>
                                 <span >La fabuleuse ballade de Pénélope, une visite immersive du Théâtre des Champs Elysées</span>
                             </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
