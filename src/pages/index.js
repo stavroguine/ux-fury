@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import quote from '../images/quote.svg';
 import TDF_home from '../images/TDF_home.png';
 import ffyn from '../images/ffyn.png';
@@ -50,18 +49,22 @@ const IndexPage = () => (
                   </div>
                   <div className="row h-100">
                       <div className="col-sm-12 col-md-6">
-                          <div className="home__topProjects--tdf">
-                              <img src={TDF_home} className="img-fluid" />
-                              <BlackOpacity/>
-                              <span >TDF, l'intranet communautaire</span>
-                          </div>
+                          <Link to='/projects/tdf'>
+                              <div className="home__topProjects--tdf">
+                                  <img src={TDF_home} className="img-fluid" />
+                                  <BlackOpacity/>
+                                  <span >TDF, l'intranet communautaire</span>
+                              </div>
+                          </Link>
                       </div>
                       <div className="col-sm-12 col-md-6">
-                          <div className="home__topProjects--ffyn">
-                              <img src={ffyn} className="img-fluid" />
-                              <BlackOpacity/>
-                              <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
-                          </div>
+                          <Link to='/projects/ffyn'>
+                              <div className="home__topProjects--ffyn">
+                                  <img src={ffyn} className="img-fluid" />
+                                  <BlackOpacity/>
+                                  <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
+                              </div>
+                          </Link>
                       </div>
                   </div>
                   <div className="row">

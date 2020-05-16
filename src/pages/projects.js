@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/projects.scss';
 import BlackOpacity from "../components/black-opacity";
 import TDF_home from "../images/TDF_home.png";
