@@ -59,6 +59,26 @@
 
     &--item {
       margin-top: 50px;
+
+
+
+      &--prod {
+        margin-top: 50px;
+
+        h4 {
+          color: $green;
+        }
+
+        .wireflow__img {
+          margin-bottom: 20px;
+          margin-top: 20px;
+          text-align: center;
+        }
+
+        .row {
+          background-color: $grey-light;
+        }
+      }
     }
   }
 
@@ -72,5 +92,77 @@
     p {
       width: 50%;
     }
+  }
+
+  .journey {
+    &__color {
+
+
+        overflow: hidden;
+
+        li {
+          height: 50px;
+          float: left;
+          list-style-type: none;
+          margin-right: 5%;
+          width: 50px;
+        }
+
+        &--liberty {
+          :first-child {
+            background-color: red;
+          }
+
+          :nth-child(2) {
+            background-color: blue;
+          }
+
+          :nth-child(3) {
+            background-color: green;
+          }
+
+          :nth-child(4) {
+            background-color: yellow;
+          }
+        }
+
+        &--strength {
+          :first-child {
+            background-color: rebeccapurple;
+          }
+
+          :nth-child(2) {
+            background-color: brown;
+          }
+
+          :nth-child(3) {
+            background-color: goldenrod;
+          }
+
+          :nth-child(4) {
+            background-color: yellowgreen;
+          }
+        }
+
+    }
+
+    &__font {
+      text-align: center;
+
+      span:before {
+        content: "\A";
+        white-space: pre;
+      }
+
+      &--liberty {
+        font-family: "Valeria bold grunge";
+      }
+
+      &--strength {
+        font-family: "Billionaire medium grunge";
+      }
+    }
+
+
   }
 }

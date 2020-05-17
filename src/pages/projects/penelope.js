@@ -62,14 +62,12 @@ const PenelopePage = () => (
                             <h3>Le problème</h3>
                             <p>
                                 Le Théâtre des Champs-Elysées perd en nouveauté et en innovation. Cela se ressent dans leur public, qui peine à se renouveller : une programmation qui ne parle qu’aux plus expérimentés, un côté innacessible auprès des jeunes générations.
-
                             </p>
                         </div>
                         <div className="col-sm-12 col-md-4  pl-0">
                             <h3>La résolution</h3>
                             <p>
                                 Nous avons proposé une balade intéractive au sein du Théâtre : pour découvrir l’histoire du lieu, introduire le nouveau public à la musique classique. Notre concept a été d’allier les nouvelles technologies au monde du classique, pour dépoussiérer l’image de cet art, qui est loin d’être “classique”.
-
                             </p>
                         </div>
                     </div>
@@ -118,11 +116,50 @@ const PenelopePage = () => (
                             </div>
                         </div>
                     </div>
-                    <div className="penelope__steps--item">
-                        <div className="row h-100">
-                            <div className="col-sm-12 col-md-12 pl-0">
-
-
+                    <div className="penelope__steps--item--prod pl-0">
+                        <div className="row h-100 pl-0">
+                            <div className="col-sm-12 pl-0">
+                                <h3>La phase de production</h3>
+                            </div>
+                        </div>
+                        <div className="row h-100 pl-0">
+                            <div className="col-sm-12">
+                                <h4>Wireflow : Connexion</h4>
+                            </div>
+                        </div>
+                        <div className="row h-100 pl-0">
+                            <div className="col-sm-12  wireflow__img">
+                                <img src={wireflow_1} className="img-fluid content"/>
+                            </div>
+                        </div>
+                        <div className="row h-100 pl-0">
+                            <div className="col-sm-12">
+                                <h4>Wireflow : Choix du parcours</h4>
+                            </div>
+                        </div>
+                        <div className="row h-100 pl-0">
+                            <div className="col-sm-12  wireflow__img">
+                                <img src={wireflow_2} className="img-fluid content"/>
+                            </div>
+                        </div>
+                        <div className="row h-100 pl-0">
+                            <div className="col-sm-12">
+                                <h4>Wireflow : Visualiser ses items et son avancement dans le jeu</h4>
+                            </div>
+                        </div>
+                        <div className="row h-100 pl-0">
+                            <div className="col-sm-12  wireflow__img">
+                                <img src={wireflow_3} className="img-fluid content"/>
+                            </div>
+                        </div>
+                        <div className="row h-100 pl-0">
+                            <div className="col-sm-12">
+                                <h4>Wireflow : Démarrer une activité et la finir </h4>
+                            </div>
+                        </div>
+                        <div className="row h-100 pl-0">
+                            <div className="col-sm-12  wireflow__img">
+                                <img src={wireflow_4} className="img-fluid content"/>
                             </div>
                         </div>
                     </div>
@@ -160,7 +197,7 @@ const PenelopePage = () => (
                                 <img src={entry} className="img-fluid content"/>
                             </div>
                         </div>
-                        <div className="row h-100">
+                        <div className="row h-100 mt-5">
                             <div className="col-sm-12 col-md-4 pl-0">
                                 <p>
                                     La première partie de l’histoire du TCE, de
@@ -171,18 +208,43 @@ const PenelopePage = () => (
                                     Printemps de Stravinsky.
                                 </p>
                             </div>
-                            <div className="col-sm-12 col-md-4 pl-0">
-         
+                            <div className="col-sm-12 col-md-4 pl-5">
+                                <div className="journey">
+                                    <h4>Parcours Liberte</h4>
+                                    <ul className="journey__color journey__color--liberty">
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                    <div className="journey__font journey__font--liberty">
+                                        <span>Valeria</span>
+                                        <span>abcdefghijklmnopqrstuvwxyz</span>
+                                        <span>0123456789</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div className="row h-100">
+                        <div className="row h-100 mt-5">
                             <div className="col-sm-12 col-md-4 pl-0">
-       
                             </div>
-                            <div className="col-sm-12 col-md-4 pl-0">
-
+                            <div className="col-sm-12 col-md-4 pl-5">
+                                <div className="journey">
+                                    <h4>Parcours Force</h4>
+                                    <ul className="journey__color journey__color--strength">
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                    <div className="journey__font journey__font--strength">
+                                        <span>Billionaire</span>
+                                        <span>abcdefghijklmnopqrstuvwxyz</span>
+                                        <span>0123456789</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="col-sm-12 col-md-4 pl-0">
+                            <div className="col-sm-12 col-md-4 pl-5">
                                 <p>
                                     Pour la deuxième partie de l’histoire du Théâtre
                                     des Champs-élysées, de 1946 à nos jours, qui
