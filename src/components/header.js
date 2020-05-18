@@ -33,6 +33,7 @@ class Header extends Component {
                     marginBottom: `1.45rem`,
                 }}
             >
+
                 <div
                     style={{
                         margin: `0 auto`,

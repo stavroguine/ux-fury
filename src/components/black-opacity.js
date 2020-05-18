@@ -6,7 +6,7 @@ const BlackOpacity = ()  => (
              backgroundColor: `black`,
              height: `396px`,
              position: `absolute`,
-             opacity: `0.2`,
+             opacity: `0.3`,
              width: `530px`,
          }}></div>
 );

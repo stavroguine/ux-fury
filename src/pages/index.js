@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import TransitionLink from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
@@ -14,6 +15,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
       <main className="home">
+          <div id="#top"></div>
+
           <section id="splashScreen" className="home__splash">
               <div className="container h-100">
                   <div className="row h-100">
@@ -32,7 +35,9 @@ const IndexPage = () => (
                                       <li>Youtube</li>
                                   </ul>
                               </div>
-                              <button className="button"><Link to='/career'>Découvrir mon parcours</Link></button>
+                              <button className="button">
+                                  <AniLink paintDrip color="yellow"  to='/career'  >Découvrir mon parcours</AniLink>
+                              </button>
                           </div>
                       </div>
                   </div>
@@ -40,15 +45,15 @@ const IndexPage = () => (
           </section>
           <section id="topProjects" className="home__topProjects">
               <div className="container">
-                  <div className="row h-100">
+                  <div className="row h-100 mt-5">
                       <div className="sol-sm-12">
                           <div className="home__topProjects--title">
                               <h2>Mes projets phares</h2>
                           </div>
                       </div>
                   </div>
-                  <div className="row h-100">
-                      <div className="col-sm-12 col-md-6">
+                  <div className="row h-100 mt-5">
+                      <div className="col-sm-12 col-md-6 pl-0">
                           <Link to='/projects/tdf'>
                               <div className="home__topProjects--tdf">
                                   <img src={TDF_home} className="img-fluid" />
@@ -67,13 +72,13 @@ const IndexPage = () => (
                           </Link>
                       </div>
                   </div>
-                  <div className="row">
+                  <div className="row mt-4 mb-4">
                       <button className="button mx-auto"><Link to='/projects'>Voir tous mes projets</Link></button>
                   </div>
               </div>
           </section>
           <section id="topTools" className="home__topTools">
-              <div className="container h-100">
+              <div className="container">
                   <div className="row h-100">
                       <div className="sol-sm-12">
                           <div className="home__topTools--title">

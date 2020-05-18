@@ -40,15 +40,47 @@ header {
 }
 
 .footer {
-  ul {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    li {
-      float: left;
-      padding-right: 10vh;
-    }
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  img {
+    height: 40px;
+    width: 40px;
   }
+
+  .arrow-up.icon {
+    color: #000;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 4px;
+    width: 1px;
+    height: 16px;
+    background-color: black;
+  }
+
+  .arrow-up.icon:before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 1px;
+    width: 10px;
+    height: 10px;
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+    .circle {
+      background-color:#fff;
+      border:1px solid black;
+      cursor: pointer;
+      height:25px;
+      border-radius:50%;
+      -moz-border-radius:50%;
+      -webkit-border-radius:50%;
+      width:25px;
+    }
 }
 
 

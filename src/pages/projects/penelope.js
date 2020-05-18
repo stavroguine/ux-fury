@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../styles/projects/penelope.scss';
 import Tag from "../../components/tag";
 import Background from "../../components/background";
-import penelope_1 from "../../images/projects/penelope/1-Penelope 2@2x.png";
 import penelope_2 from "../../images/projects/penelope/2-Peneloppe - La tour Eiffel illumine le TCE - FHD.png";
 import penelope_3 from "../../images/projects/penelope/3-Penelope - Mock up Ipad inside the TCE - FHD.png";
 import wireflow_1 from "../../images/projects/penelope/4- Wireflow connexion.png";
@@ -24,6 +23,8 @@ const PenelopePage = () => (
     <Layout>
         <SEO title="Penelope" />
         <main className="penelope">
+            <div id="#top"></div>
+
             <section id="penelopeSplash" className="penelope__splash">
                 <div className="container h-100">
                     <div className="row h-100">
