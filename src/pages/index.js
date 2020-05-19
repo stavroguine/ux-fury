@@ -1,15 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
-import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "../components/layout"
-
 import SEO from "../components/seo"
 import quote from '../images/quote.svg';
-import TDF_home from '../images/TDF_home.png';
-import ffyn from '../images/ffyn.png';
 import '../styles/home.scss';
 import BlackOpacity from "../components/black-opacity";
+import Background from "../components/background";
+import Image from "../components/image";
+
 
 const IndexPage = () => (
   <Layout>
@@ -56,8 +55,8 @@ const IndexPage = () => (
                       <div className="col-sm-12 col-md-6 pl-0">
                           <Link to='/projects/tdf'>
                               <div className="home__topProjects--tdf">
-                                  <img src={TDF_home} className="img-fluid" />
                                   <BlackOpacity/>
+                                  <Image alt="Voir la page de TDF" filename="TDF_home.png" />
                                   <span >TDF, l'intranet communautaire</span>
                               </div>
                           </Link>
@@ -65,8 +64,8 @@ const IndexPage = () => (
                       <div className="col-sm-12 col-md-6">
                           <Link to='/projects/ffyn'>
                               <div className="home__topProjects--ffyn">
-                                  <img src={ffyn} className="img-fluid" />
                                   <BlackOpacity/>
+                                  <Image alt="Voir la page de Ffyn" filename="ffyn.png" />
                                   <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
                               </div>
                           </Link>

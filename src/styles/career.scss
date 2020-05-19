@@ -37,14 +37,25 @@
   }
 
   &__journey {
+    h2 {
+      margin-top: 5%;
+    }
+
     &--step {
       text-align: center;
+      left: 25%;
+      margin-top: 5%;
+      position: relative;
+      width: 50%;
+
     }
   }
 
   &__recap {
     background-color: $blue;
     color: white;
+    margin-top: 5%;
+
     height: 80vh;
     width: 100vw;
 

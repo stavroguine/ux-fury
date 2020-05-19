@@ -4,9 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Background from "../components/background"
 import SEO from "../components/seo"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/career.scss';
-import photo from '../images/career/2-Photo.png';
+import photo from "../images/career/2-Photo.png"
 import plant_one from '../images/career/3-Plant_one.png';
 import plant_two from '../images/career/4-Plant_two.png';
 import plant_leaf from '../images/career/5-Plant_leaf.png';
@@ -70,26 +69,36 @@ const CareerPage = () => (
                     </div>
                     <div className="row">
                         <div className="col-sm-12 col-md-12 ">
-                            <div className="career__journey--step "  data-aos="fade-down"
-                                 data-aos-easing="linear"
-                                 data-aos-duration="1500">
-                                <img src={plant_one} />
+                            <div className="career__journey--step align-items-center  "  >
+                                <img src={plant_one}
+                                     data-aos="fade-up"
+                                     data-aos-easing="linear"
+                                     data-aos-duration="3000"/>
                                 <h3>Acte 1</h3>
                                 <h4> Le cinéma</h4>
+                                <span> Le cinéma... Ce 7ème art, nouveaux, toujours à la pointe de la perfection.</span>
                                 <p>
 
+                                    J'ai eu la chance de pouvoir comprendre comment on réalisait un film : les story-boards, les scénarii...
+                                    Et j'ai pu faire mes premiers pas dans le montage.
                                 </p>
+
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-sm-12 col-md-12 ">
                             <div className="career__journey--step "   >
-                                <img src={plant_two} />
+                                <img src={plant_two}
+                                     data-aos="fade-up"
+                                     data-aos-easing="linear"
+                                     data-aos-duration="3000" />
                                 <h3>Acte II</h3>
                                 <h4> Les sciences "molles"</h4>
+                                   <span>Quoi de mieux que les sciences molles pour comprendre notre évolution ?</span>
                                 <p>
-
+                                    Grâce à ces sciences, j'ai acquis la méthodologie d'enquête, qui est très bien pour
+                                    mener des tests utilisateurs, mais aussi pour analyser les données utilisateurs.
                                 </p>
                             </div>
                         </div>
@@ -97,11 +106,18 @@ const CareerPage = () => (
                     <div className="row">
                         <div className="col-sm-12 col-md-12 ">
                             <div className="career__journey--step">
-                                <img src={plant_leaf} />
+                                <img src={plant_leaf}
+                                     data-aos="fade-up"
+                                     data-aos-easing="linear"
+                                     data-aos-duration="3000" />
                                 <h3>Acte III</h3>
                                 <h4> La folie du monde numérique</h4>
+                                    <span>Le numérique signifie pour moi l'innovation. </span>
                                 <p>
-
+                                    Dans le web, nos habitudes ont évolué en
+                                    peu du temps. Grâce à de nouvelles fonctionnalités, de nouvelles applications.
+                                    Inventer, innover, améliorer, ce sont les raisons pour lesquelles je voulais me
+                                    spécialiser dans le web.
                                 </p>
                             </div>
                         </div>
@@ -109,23 +125,37 @@ const CareerPage = () => (
                     <div className="row">
                         <div className="col-sm-12 col-md-12 ">
                             <div className="career__journey--step">
-                                <img src={plant_bulbs} />
+                                <img src={plant_bulbs}
+                                     data-aos="fade-up"
+                                     data-aos-easing="linear"
+                                     data-aos-duration="3000" />
                                 <h3>Acte IV</h3>
                                 <h4> L'euphorie derrière un produit</h4>
+                                <span>Le monde du numérique m'a appris une chose :  un produit n'est jamais fini.</span>
                                 <p>
-
+                                    Grâce à mes stages, j'ai pu voir toute la gestion de projet : l'innovation,
+                                    les analyses data, les bugs et l'écriture des tickets.
                                 </p>
+
                             </div>
                         </div>
                     </div>
                     <div  className="row" >
                         <div className="col-sm-12 col-md-12 ">
                             <div className="career__journey--step">
-                                <img src={plant_flowers} />
+                                <img src={plant_flowers}
+                                     data-aos="fade-up"
+                                     data-aos-easing="linear"
+                                     data-aos-duration="3000" />
                                 <h3>Acte V</h3>
                                 <h4>Eureka !</h4>
+                                <span>
+                                    Ma problématique était de trouver un métier qui me permettait d'utiliser
+                                    toutes ces connaissances, dans le web, et d'inclure de la création en plus.
+                                </span>
                                 <p>
-
+                                    C'est comme ça que j'ai croisé la voie de l'UX Design. Ce métier inclut tout ce que j'ai pu voir.
+                                    J'ai donc pris les devants pour avoir toutes les chances de mon côté.
                                 </p>
                             </div>
                         </div>

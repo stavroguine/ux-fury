@@ -4,11 +4,7 @@ import SEO from "../../components/seo";
 import '../../styles/projects/tdf.scss';
 import Tag from "../../components/tag";
 import Background from "../../components/background";
-import xp_map from "../../images/projects/tdf/2-TDF - Expérience Map - FHD.png";
-import persona from "../../images/projects/tdf/3-TDF - Fiche Personna - FHD.png";
-import screen_home from "../../images/projects/tdf/4-TDF - Screen HomePage - FHD.png";
-import screen_engagement from "../../images/projects/tdf/TDF - Screen Les engagements TDF.png";
-import mockup from "../../images/projects/tdf/5-TDF - Mockup Page d'accueil - FHD.png";
+import Image from "../../components/image";
 
 const TdfPage = () => (
     <Layout>
@@ -42,43 +38,43 @@ const TdfPage = () => (
                                 <h2>Le contexte</h2>
                             </div>
                         </div>
-                </div>
-                <div className="row h-100">
-                    <div className="sol-sm-12 col-md-4">
-                        <h3>Présentation</h3>
-                        <p>
-                            TDF, opérateur d’infrastructure et entreprise de
-                            télécom, voulait refondre leur site intranet, en
-                            incluant des technologies plus poussées.
-                        </p>
+                    </div>
+                    <div className="row h-100">
+                        <div className="sol-sm-12 col-md-4 pl-0">
+                            <h3>Présentation</h3>
+                            <p>
+                                TDF, opérateur d’infrastructure et entreprise de
+                                télécom, voulait refondre leur site intranet, en
+                                incluant des technologies plus poussées.
+                            </p>
 
-                    </div>
-                    <div className="sol-sm-12 col-md-4">
-                        <h3>Le problème</h3>
-                        <p>
-                            Leur ancien intranet n’était plus d’actualité au
-                            niveau du design.  S’ajoutait à cela des
-                            informations qui n’étaient plus fiables et
-                            toujours visibles sur leur intranet. Ce qui
-                            pouvait fréner, voir complexifier les tâches des
-                            employés. Les employés ne trouvaient pas non
-                            plus leur place dans ce flot d’information, et
-                            demander un espace plus communautaire.
-                        </p>
+                        </div>
+                        <div className="sol-sm-12 col-md-4">
+                            <h3>Le problème</h3>
+                            <p>
+                                Leur ancien intranet n’était plus d’actualité au
+                                niveau du design.  S’ajoutait à cela des
+                                informations qui n’étaient plus fiables et
+                                toujours visibles sur leur intranet. Ce qui
+                                pouvait fréner, voir complexifier les tâches des
+                                employés. Les employés ne trouvaient pas non
+                                plus leur place dans ce flot d’information, et
+                                demander un espace plus communautaire.
+                            </p>
 
-                    </div>
-                    <div className="sol-sm-12 col-md-4">
-                        <h3>La résolution</h3>
-                        <p>
-                            Notre solution a été de refondre leur intranet
-                            sur un Sharepoint, en incluant les solutions
-                            Office 365, pour construire un intranet perrein
-                            et un espace plus communautaire avec
-                            Yammer.
-                        </p>
+                        </div>
+                        <div className="sol-sm-12 col-md-4">
+                            <h3>La résolution</h3>
+                            <p>
+                                Notre solution a été de refondre leur intranet
+                                sur un Sharepoint, en incluant les solutions
+                                Office 365, pour construire un intranet perrein
+                                et un espace plus communautaire avec
+                                Yammer.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
             </section>
             <section id="tdfSteps" className="tdf__steps">
                 <div className="container">
@@ -104,18 +100,18 @@ const TdfPage = () => (
                                 </p>
                             </div>
                             <div className="sol-sm-12 col-md-8">
-                                <img src={xp_map} className="img-fluid content"/>
-                                <img src={persona} className="img-fluid content"/>
+                                <Image alt="Experience map 1" filename="2-TDF - Expérience Map - FHD.png" />
+                                <Image alt="Experience map 2" filename="3-TDF - Fiche Personna - FHD.png" />
                             </div>
                         </div>
                     </div>
                     <div className="tdf__steps--item">
                         <div className="row h-100">
                             <div className="col-sm-12 col-md-4">
-                                <img src={screen_home} className="img-fluid content" />
+                                <Image alt="TDF Accueil" filename="4-TDF - Screen HomePage - FHD.png" />
                             </div>
                             <div className="col-sm-12 col-md-4">
-                                <img src={screen_engagement} className="img-fluid content" />
+                                <Image alt="Les engagements TDF" filename="TDF - Screen Les engagements TDF.png" />
                             </div>
                             <div className="col-sm-12 col-md-4 my-auto">
                                 <h3>2. La phase idéation</h3>
@@ -138,7 +134,7 @@ const TdfPage = () => (
                                 </p>
                             </div>
                             <div className="col-sm-12 col-md-8 my-auto">
-                                <img src={mockup} className="img-fluid content" />
+                                <Image alt="Les engagements TDF" filename="5-TDF - Mockup Page d'accueil - FHD.png" />
                             </div>
                         </div>
                     </div>

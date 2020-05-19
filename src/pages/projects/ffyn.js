@@ -4,17 +4,7 @@ import SEO from "../../components/seo";
 import '../../styles/projects/ffyn.scss';
 import Tag from "../../components/tag";
 import Background from "../../components/background";
-import zoning_6 from "../../images/projects/ffyn/1-Ffyn - zonning (6) - FHD.png";
-import zoning_16 from "../../images/projects/ffyn/2-Ffyn - zonning (16) - FHD.png";
-import new_post from "../../images/projects/ffyn/3-Ffyn - new post design - FHD.png";
-import send_to from "../../images/projects/ffyn/4-FFYN - send to.png";
-import send_to_fhd from "../../images/projects/ffyn/5-Ffyn - send to  - FHD.png";
-import zoning_8 from "../../images/projects/ffyn/6-Ffyn - zonning (8) - FHD.png";
-import zoning_9 from "../../images/projects/ffyn/7-Ffyn - zonning (9) - FHD.png";
-import zoning_10 from "../../images/projects/ffyn/8-Ffyn - zonning (10) - FHD.png";
-import zoning_11 from "../../images/projects/ffyn/9-Ffyn - zonning (11) - FHD.png";
-import zoning_12 from "../../images/projects/ffyn/10-Ffyn - zonning (12) - FHD.png";
-import laptop_hand from "../../images/projects/ffyn/11-Ffyn - laptop hand  - FHD.png";
+import Image from "../../components/image";
 
 const FfynPage = () => (
     <Layout>
@@ -41,7 +31,7 @@ const FfynPage = () => (
             <section id="ffynIntro" className="ffyn__intro">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="col-sm-12">
+                        <div className="col-sm-12 pl-0">
                             <div className="ffyn__intro--title">
                                 <h2>Le contexte</h2>
                             </div>
@@ -72,7 +62,7 @@ const FfynPage = () => (
             <section className="ffynSteps" className="ffyn__steps">
                 <div className="container">
                     <div className="row h-100">
-                        <div className="col-sm-12">
+                        <div className="col-sm-12 pl-0">
                             <div className="ffyn__steps--title">
                                 <h2>Les fonctionnalités que j'ai développées</h2>
                             </div>
@@ -89,9 +79,8 @@ const FfynPage = () => (
                                 <h4>La découverte du problème</h4>
                                 <p>
                                     Grâce aux KPIs, nous avons remarqué que certains utilisateurs ne venaient qu’une fois par mois sur la solution. Nous avons mené une enquête pour savoir précisément pourquoi ils ne venaient qu’une fois par mois. Le problème qui est ressorti était que les utilisateurs inscrits n’étaient pas notifiés de l’activité sur FFYN. Et qu’ils accédaient à l’application que pour se mettre à la page. Nous avons donc pensé aux digest emails.
-
                                 </p>
-                                <img src={zoning_6} className="img-fluid content img-step"/>
+                                <Image alt="Ffyn Zoning" filename="1-Ffyn - zonning (6) - FHD.png" className="img-step" />
                             </div>
                             <div className="col-sm-12 col-md-6">
                                 <h4>Notre réponse</h4>
@@ -101,8 +90,7 @@ const FfynPage = () => (
                                 <p>
                                     <span className="highlight">Les outils utilisés : tri de carte, Wireframing, Sketch, design system</span>
                                 </p>
-
-                                <img src={zoning_16} className="img-fluid content img-step" />
+                                <Image alt="Ffyn Zoning 2" filename="2-Ffyn - zonning (16) - FHD.png" className="img-step" />
                             </div>
                         </div>
                     </div>
@@ -132,7 +120,7 @@ const FfynPage = () => (
                         </div>
                         <div className="row h-100">
                             <div className="col-sm-12 col-md-12 pl-0">
-                                <img src={new_post} className="img-fluid content"/>
+                                <Image alt="Ffyn Nouveau post" filename="3-Ffyn - new post design - FHD.png" className="img-step" />
                             </div>
                         </div>
                     </div>
@@ -148,7 +136,8 @@ const FfynPage = () => (
                                 <p>
                                     FFYN fonctionnait par groupe d’utilisateurs. Les utilisateurs d’un groupe n’avaient pas les mêmes interlocuteurs dans les autres entités. Il pouvait y avoir des confusions dans les échanges, qui entraînaient des pertes de temps.
                                 </p>
-                                <img src={send_to} className="img-fluid content img-step"/>
+                                <Image alt="Ffyn Nouveau post" filename="4-FFYN - send to.png" className="img-step" />
+
                             </div>
                             <div className="col-sm-12 col-md-6">
                                 <h4>Notre réponse</h4>
@@ -159,8 +148,8 @@ const FfynPage = () => (
                                 <p>
                                     <span className="highlight">Les outils utilisés : Wireframing, Sketch, Design system</span>
                                 </p>
+                                <Image alt="Ffyn Nouveau post FHD" filename="3-Ffyn - new post design - FHD.png" className="img-step" />
 
-                                <img src={send_to_fhd} className="img-fluid content img-step" />
                             </div>
                         </div>
                     </div>
@@ -190,36 +179,35 @@ const FfynPage = () => (
                                 <p>
                                     Nous avons décidé de rajouter une fonctionnalité, renvoyer le message à un autre destinaire, dès qu’un out of office arrivait. L’utilisateur n’avait plus qu’à cliquer et renvoyer son mail à un autre destinaire.
                                 </p>
-                                <p>
+                                <p className="highlight">
                                     Les outils utilisés : Tri de carte, Wireframing (tableau), Sketch, Design System
                                 </p>
                             </div>
                         </div>
                         <div className="row h-100">
                             <div className="col-sm-12 col-md-4 pl-0">
-                                <img src={zoning_8} className="img-fluid content"/>
+                                <Image alt="Ffyn Zoning vertical 1" filename="6-Ffyn - zonning (8) - FHD.png" />
                             </div>
                             <div className="col-sm-12 col-md-4 pl-0">
-                                <img src={zoning_9} className="img-fluid content" />
+                                <Image alt="Ffyn Zoning vertical 2" filename="7-Ffyn - zonning (9) - FHD.png" />
                             </div>
                             <div className="col-sm-12 col-md-4 pl-0">
-                                <img src={zoning_10} className="img-fluid content" />
-
+                                <Image alt="Ffyn Zoning vertical 3" filename="8-Ffyn - zonning (10) - FHD.png"  />
                             </div>
                         </div>
                         <div className="row h-100 pt-3">
                             <div className="col-sm-0 col-md-2 pl-0">
                             </div>
                             <div className="col-sm-12 col-md-4 pl-0">
-                                <img src={zoning_11} className="img-fluid content" />
+                                <Image alt="Ffyn Zoning vertical 4" filename="9-Ffyn - zonning (11) - FHD.png"  />
                             </div>
                             <div className="col-sm-12 col-md-4 pl-0">
-                                <img src={zoning_12} className="img-fluid content" />
+                                <Image alt="Ffyn Zoning vertical 4" filename="10-Ffyn - zonning (12) - FHD.png"  />
                             </div>
                         </div>
                         <div className="row h-100 pt-5">
                             <div className="col-sm-12 col-md-12 pl-0">
-                                <img src={laptop_hand} className="img-fluid content" />
+                                <Image alt="Ffyn Zoning vertical 4" filename="11-Ffyn - laptop hand  - FHD.png"  />
                             </div>
                         </div>
                     </div>

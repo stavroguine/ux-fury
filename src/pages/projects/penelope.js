@@ -5,19 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../styles/projects/penelope.scss';
 import Tag from "../../components/tag";
 import Background from "../../components/background";
-import penelope_2 from "../../images/projects/penelope/2-Peneloppe - La tour Eiffel illumine le TCE - FHD.png";
-import penelope_3 from "../../images/projects/penelope/3-Penelope - Mock up Ipad inside the TCE - FHD.png";
-import wireflow_1 from "../../images/projects/penelope/4- Wireflow connexion.png";
-import wireflow_2 from "../../images/projects/penelope/5- Wireflow choix du parcours.png";
-import wireflow_3 from "../../images/projects/penelope/6- Wireflow voir items.png";
-import wireflow_4 from "../../images/projects/penelope/7- Wireflow demarrer activité .png";
-import liberty from "../../images/projects/penelope/8-Peneloppe - Photo La liberté de coté - FHD.png";
-import penelope_4 from "../../images/projects/penelope/9-Peneloppe - Photo Peneloppe - FHD.png";
-import strength from "../../images/projects/penelope/10-Peneloppe - Photo La force - FHD.png";
-import entry from "../../images/projects/penelope/11-Peneloppe - Photo Entree du TCE - FHD.png";
-import mock_up from "../../images/projects/penelope/12-Peneloppe - Mock up Ipad and Stylo.png";
-
-
+import Image from "../../components/image";
 
 const PenelopePage = () => (
     <Layout>
@@ -96,7 +84,7 @@ const PenelopePage = () => (
                                 </p>
                             </div>
                             <div className="col-sm-12 col-md-6">
-                                <img src={penelope_2} className="img-fluid content"/>
+                                <Image alt="Peneloppe - La tour Eiffel illumine le TCE" filename="2-Peneloppe - La tour Eiffel illumine le TCE - FHD.png"  />
                             </div>
                         </div>
                     </div>
@@ -113,7 +101,7 @@ const PenelopePage = () => (
                                 </p>
                             </div>
                             <div className="col-sm-12 col-md-6">
-                                <img src={penelope_3} className="img-fluid content"/>
+                                <Image alt="Mock up ipad" filename="3-Penelope - Mock up Ipad inside the TCE - FHD.png"  />
                             </div>
                         </div>
                     </div>
@@ -130,7 +118,8 @@ const PenelopePage = () => (
                         </div>
                         <div className="row h-100 pl-0">
                             <div className="col-sm-12  wireflow__img">
-                                <img src={wireflow_1} className="img-fluid content"/>
+                                <Image alt="Wireflow 1" filename="4- Wireflow connexion.png"  />
+
                             </div>
                         </div>
                         <div className="row h-100 pl-0">
@@ -140,7 +129,7 @@ const PenelopePage = () => (
                         </div>
                         <div className="row h-100 pl-0">
                             <div className="col-sm-12  wireflow__img">
-                                <img src={wireflow_2} className="img-fluid content"/>
+                                <Image alt="Wireflow 2" filename="5- Wireflow choix du parcours.png"  />
                             </div>
                         </div>
                         <div className="row h-100 pl-0">
@@ -150,7 +139,7 @@ const PenelopePage = () => (
                         </div>
                         <div className="row h-100 pl-0">
                             <div className="col-sm-12  wireflow__img">
-                                <img src={wireflow_3} className="img-fluid content"/>
+                                <Image alt="Wireflow 3" filename="6- Wireflow voir items.png"  />
                             </div>
                         </div>
                         <div className="row h-100 pl-0">
@@ -160,7 +149,7 @@ const PenelopePage = () => (
                         </div>
                         <div className="row h-100 pl-0">
                             <div className="col-sm-12  wireflow__img">
-                                <img src={wireflow_4} className="img-fluid content"/>
+                                <Image alt="Wireflow 4" filename="7- Wireflow demarrer activité .png"  />
                             </div>
                         </div>
                     </div>
@@ -184,18 +173,18 @@ const PenelopePage = () => (
                             <div className="col-sm-0 col-md-2 pl-0">
                             </div>
                             <div className="col-sm-12 col-md-3 pl-0">
-                                <img src={liberty} className="img-fluid content"/>
+                                <Image alt="La liberté de coté" filename="8-Peneloppe - Photo La liberté de coté - FHD.png"  />
                             </div>
                             <div className="col-sm-12 col-md-3 pl-0">
-                                <img src={penelope_4} className="img-fluid content"/>
+                                <Image alt="Peneloppe" filename="9-Peneloppe - Photo Peneloppe - FHD.png"  />
                             </div>
                             <div className="col-sm-12 col-md-3 pl-0">
-                                <img src={strength} className="img-fluid content"/>
+                                <Image alt="Parcours force" filename="10-Peneloppe - Photo La force - FHD.png"  />
                             </div>
                         </div>
                         <div className="row h-100 pt-5">
                             <div className="col-sm-12 col-md-12 pl-0">
-                                <img src={entry} className="img-fluid content"/>
+                                <Image alt="Entrée du TCE" filename="11-Peneloppe - Photo Entree du TCE - FHD.png"  />
                             </div>
                         </div>
                         <div className="row h-100 mt-5">
@@ -258,7 +247,7 @@ const PenelopePage = () => (
                         </div>
                         <div className="row h-100 mt-5">
                             <div className="col-sm-12 col-md-12 ">
-                                <img src={mock_up} className="img-fluid content" />
+                                <Image alt="Mock up Ipad Stylo" filename="12-Peneloppe - Mock up Ipad and Stylo.png"  />
                             </div>
                         </div>
                     </div>

@@ -4,14 +4,7 @@ import SEO from "../../components/seo";
 import '../../styles/projects/daradja.scss';
 import Tag from "../../components/tag";
 import Background from "../../components/background";
-import mock_up from "../../images/projects/daradja/1-Daradja - Mock up Iphone face - FHD.png";
-import brainstorming from "../../images/projects/daradja/2-Daradja - brainstorming - FHD.png";
-import schema_mentors from "../../images/projects/daradja/3-Daradja - Schéma BPMN MENTORS - FHD.png";
-import wireflow from "../../images/projects/daradja/4-DARADJA - WireFlow - FHD.png";
-import daradja_home from "../../images/projects/daradja/5-Daradja - Screen Page d'accueil - FHD.png";
-import daradja_student from "../../images/projects/daradja/6-Daradja - Screen Page étudiant - FHD.png";
-import daradja_rdv from "../../images/projects/daradja/7-Daradja - Screen Page Rendez-vous - Commentaire à faire - FHD.png";
-import daradja_rdv_2 from "../../images/projects/daradja/8-Daradja - Screen Page rendez-vous - Commentaire rempli - FHD.png";
+import Image from "../../components/image";
 
 const DaradjaPage = () => (
     <Layout>
@@ -104,7 +97,7 @@ const DaradjaPage = () => (
                             </div>
                         </div>
                         <div className="row h-100">
-                            <div className="col-sm-12 col-md-8  pl-0">
+                            <div className="col-sm-12 col-md-8  pl-0 my-auto">
                                 <p>
                                     Nous sommes d’abord passés par une phase de compréhension du
                                     besoin de notre client. Nous avons d’abord défini le système du
@@ -113,7 +106,7 @@ const DaradjaPage = () => (
                                 </p>
                             </div>
                             <div className="col-sm-12 col-md-4">
-                                <img src={brainstorming} className="img-fluid content"/>
+                                <Image alt="Brainstorming" filename="2-Daradja - brainstorming - FHD.png"  />
                             </div>
                         </div>
                     </div>
@@ -125,7 +118,7 @@ const DaradjaPage = () => (
                         </div>
                         <div className="row h-100">
                             <div className="col-sm-12 col-md-4">
-                                <img src={schema_mentors} className="img-fluid content"/>
+                                <Image alt="Schema mentors" filename="3-Daradja - Schéma BPMN MENTORS - FHD.png"  />
                             </div>
                             <div className="col-sm-12 col-md-8">
                                 <p>
@@ -150,7 +143,7 @@ const DaradjaPage = () => (
                                 <h2>Wireflow de notre application mobile pour les mentors</h2>
                             </div>
                             <div className="col-sm-12 pl-0">
-                                <img src={wireflow} className="img-fluid content" />
+                                <Image alt="Daradja wireflow" filename="4-DARADJA - WireFlow - FHD.png"  />
                             </div>
                         </div>
                     </div>
@@ -198,21 +191,23 @@ const DaradjaPage = () => (
                         </div>
                         <div className="row h-100">
                             <div className="col-sm-12 col-md-3">
-                                <img src={daradja_home} className="img-fluid content" />
+                                <Image alt="Daradja accueil" filename="5-Daradja - Screen Page d'accueil - FHD.png"  />
                             </div>
                             <div className="col-sm-12 col-md-3">
-                                <img src={daradja_student} className="img-fluid content" />
+                                <Image alt="Daradja page étudiant" filename="6-Daradja - Screen Page étudiant - FHD.png"  />
+
                             </div>
                             <div className="col-sm-12 col-md-3">
-                                <img src={daradja_rdv} className="img-fluid content" />
+                                <Image alt="Daradja page rendez-vous" filename="7-Daradja - Screen Page Rendez-vous - Commentaire à faire - FHD.png"  />
+
                             </div>
                             <div className="col-sm-12 col-md-3">
-                                <img src={daradja_rdv_2} className="img-fluid content" />
+                                <Image alt="Daradja page rendez-vous 2" filename="8-Daradja - Screen Page rendez-vous - Commentaire rempli - FHD.png"  />
                             </div>
                         </div>
                         <div className="row h-100 mt-5">
                             <div className="col-sm-12 col-md-12 ">
-                                <img src={mock_up} className="img-fluid content" />
+                                <Image alt="Daradja mock up Iphone" filename="1-Daradja - Mock up Iphone face - FHD.png"  />
                             </div>
                         </div>
                     </div>

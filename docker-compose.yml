@@ -1,9 +1,9 @@
 version: '3.7'
 services:
-  ux-fury:
+  gatsby:
     build: 
       context: .
-      dockerfile: Dockerfile
+      dockerfile: gatsby.Dockerfile
     working_dir: /app
     command: ./entrypoint.sh
     ports:
