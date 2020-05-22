@@ -8,18 +8,16 @@ import '../styles/home.scss';
 import BlackOpacity from "../components/black-opacity";
 import Background from "../components/background";
 import Image from "../components/image";
-
+import wonder_woman from "../images/Wonder_woman.png"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
       <main className="home">
-          <div id="#top"></div>
-
           <section id="splashScreen" className="home__splash">
               <div className="container h-100">
                   <div className="row h-100">
-                      <div className="col-sm-12 my-auto ">
+                      <div className="col-sm-6 my-auto ">
                           <div className="home__splash--content align-middle">
                               <div className="home__splash--title">
                                   <img src={quote}/>
@@ -39,6 +37,9 @@ const IndexPage = () => (
                               </button>
                           </div>
                       </div>
+                      <div className="col-sm-6 my-auto ">
+                          <img src={wonder_woman} className="home__ww"/>
+                      </div>
                   </div>
               </div>
           </section>
@@ -53,26 +54,26 @@ const IndexPage = () => (
                   </div>
                   <div className="row h-100 mt-5">
                       <div className="col-sm-12 col-md-6 pl-0">
-                          <Link to='/projects/tdf'>
+                          <AniLink cover direction="left" duration={2}  to='/projects/tdf'>
                               <div className="home__topProjects--tdf">
                                   <BlackOpacity/>
                                   <Image alt="Voir la page de TDF" filename="TDF_home.png" />
                                   <span >TDF, l'intranet communautaire</span>
                               </div>
-                          </Link>
+                          </AniLink>
                       </div>
                       <div className="col-sm-12 col-md-6">
-                          <Link to='/projects/ffyn'>
+                          <AniLink cover direction="left" duration={2} to='/projects/ffyn'>
                               <div className="home__topProjects--ffyn">
                                   <BlackOpacity/>
                                   <Image alt="Voir la page de Ffyn" filename="ffyn.png" />
                                   <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
                               </div>
-                          </Link>
+                          </AniLink>
                       </div>
                   </div>
                   <div className="row mt-4 mb-4">
-                      <button className="button mx-auto"><Link to='/projects'>Voir tous mes projets</Link></button>
+                      <button className="button mx-auto"><AniLink cover direction="bottom" duration={2} to='/projects'>Voir tous mes projets</AniLink></button>
                   </div>
               </div>
           </section>

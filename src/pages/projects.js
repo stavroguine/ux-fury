@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../styles/projects.scss';
@@ -27,42 +27,42 @@ const ProjectsPage = () => (
                 <div className="container">
                     <div className="row h-100 mt-5">
                         <div className="col-sm-12 col-md-6">
-                            <Link to='/projects/tdf'>
+                            <AniLink cover direction="left" duration={2} to='/projects/tdf'>
                                 <div className="projects__overview--item">
                                     <BlackOpacity/>
                                     <Image alt="Voir la page de TDF" filename="TDF_home.png" />
                                     <span >TDF, l'intranet communautaire</span>
                                 </div>
-                            </Link>
+                            </AniLink>
                         </div>
                         <div className="col-sm-12 col-md-6">
-                            <Link to='/projects/ffyn'>
+                            <AniLink cover direction="left" duration={2} to='/projects/ffyn'>
                                 <div className="projects__overview--item">
                                     <BlackOpacity/>
                                     <Image alt="Voir la page de Ffyn" filename="ffyn.png" />
                                     <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
                                 </div>
-                            </Link>
+                            </AniLink>
                         </div>
                     </div>
                     <div className="row h-100 mt-5">
                         <div className="col-sm-12 col-md-6">
-                            <Link to='/projects/daradja'>
+                            <AniLink cover direction="left" duration={2} to='/projects/daradja'>
                             <div className="projects__overview--item">
                                 <BlackOpacity/>
                                 <Image alt="Voir la page de Ffyn" filename="projects/4-Daradja-fhd.png" />
-                                <span >Daradja, un outil de prise de rendez-vous</span>
+                                <span>Daradja, un outil de prise de rendez-vous</span>
                             </div>
-                            </Link>
+                            </AniLink>
                         </div>
                         <div className="col-sm-12 col-md-6">
-                            <Link to='/projects/penelope'>
+                            <AniLink cover direction="left" duration={2} to='/projects/penelope'>
                             <div className="projects__overview--item">
                                 <BlackOpacity/>
                                 <Image alt="Voir la page de Pénéloppe" filename="projects/5-Peneloppe - fhd.png" />
-                                <span >La fabuleuse ballade de Pénéloppe, une visite immersive du Théâtre des Champs Elysées</span>
+                                <span>La fabuleuse ballade de Pénéloppe, une visite immersive du Théâtre des Champs Elysées</span>
                             </div>
-                            </Link>
+                            </AniLink>
                         </div>
                     </div>
                 </div>
