@@ -25,6 +25,11 @@
     display: inline-block;
     font-size: 20px;
 
+    :hover {
+      color: $green;
+      font-size: 21px;
+    }
+
     a {
       color: $green;
       text-decoration: none;
@@ -35,12 +40,14 @@
         color: $green;
       }
     }
+
+
   }
 
   &__splash {
     background-color: $yellow;
     background-size: cover;
-    overflow: auto;
+    overflow: hidden;
     height: 90vh;
     width: 99.1vw;
 
@@ -48,6 +55,7 @@
       height: auto;
       margin-top: 16%;
       max-width: 130%;
+      position: relative;
       z-index: 2;
     }
 
@@ -72,16 +80,20 @@
 
     &--content {
       display: inline-block;
+      position: relative;
+      width: 100%;
+      z-index: 3;
 
       button {
-        margin-left: 8vh;
+        margin-left: 12%;
         position: absolute;
         z-index: 3;
       }
     }
 
     &--title {
-      width: 106%;
+      display: inline;
+      width: 110%;
 
       img {
         display: inline;
@@ -94,58 +106,110 @@
         }
 
         &:nth-child(3) {
-          float: right;
-          margin-right: 4vh;
-          margin-top: -2vh;
+          left: 84%;
+          position: absolute;
+          bottom: 54%;
         }
       }
     }
 
     &--social {
+      z-index: 3;
       ul {
         overflow: hidden;
         li {
           float: left;
           font-size: 20px;
           list-style-type: none;
-          padding-right: 5vh;
+          padding-right: 10%;
+
+          a {
+            color: black;
+            cursor: pointer;
+
+            &:hover {
+              text-decoration: none;
+              opacity: .5;
+            }
+
+            &:visited {
+              color: black;
+            }
+          }
         }
       }
     }
   }
 
   &__topProjects {
-
+    transition: .5s ease;
     img {
       height: 100%;
       position: absolute;
       width: 100%;
+      transition: .5s ease;
+
+      &:hover {
+        opacity: 0;
+      }
+    }
+
+    .border:hover {
+      box-shadow:
+              1px 1px #373737,
+              1px 1px #373737,
+              1px 1px #373737,
+              1px 1px #373737,
+              1px 1px #373737,
+              1px 1px #373737;
+
+      -webkit-transform: translateX(-3px);
+      transform: translateX(-3px);
+      transition: .5s ease;
+        .black-opacity {
+          opacity: 0.6;
+        }
+        span {
+          opacity: 1;
+        }
+    }
+
+    .black-opacity {
+      background-color: black;
+      height: 396px ;
+      position: absolute;
+      opacity: 0;
+      width: 530px;
+      z-index: 1;
+      transition: .5s ease;
     }
 
     span {
+      background-color: $prune;
       color: white;
-      font-size: 20px;
-      margin-left: 1%;
+      font-size: 24px;
+      font-weight: bold;
       position: absolute;
-      top: 90%;
+      top: 50%;
+      left: 50%;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: .5s ease;
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 3;
     }
 
-    &--tdf {
+    &--item {
       height: 396px;
       position: relative;
       width: 530px;
     }
 
-    &--ffyn {
-      height: 396px;
-      position: relative;
-      width: 530px;
-    }
   }
 
   &__topTools {
     height: 37vh;
-
     background-color: $prune;
     color: white;
 
@@ -164,7 +228,5 @@
       padding: 0;
     }
 
-    .container {
-    }
   }
 }

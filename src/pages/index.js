@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -26,10 +25,10 @@ const IndexPage = () => (
                               </div>
                               <div className="home__splash--social">
                                   <ul>
-                                      <li>Mail</li>
-                                      <li>Linkedin</li>
-                                      <li>Instagram</li>
-                                      <li>Youtube</li>
+                                      <li ><a target="_blank" href="mailto:gaelle.j.molina@gmail.com">Mail</a></li>
+                                      <li><a target="_blank" href="https://www.linkedin.com/in/ga%C3%ABlle-molina-63a04b129">Linkedin</a></li>
+                                      <li><a target="_blank" href="https://www.instagram.com/gailartdesign/">Instagram</a></li>
+                                      <li><a target="_blank" href="https://www.youtube.com/user/GailOnTheMars">Youtube</a></li>
                                   </ul>
                               </div>
                               <button className="button">
@@ -55,24 +54,26 @@ const IndexPage = () => (
                   <div className="row h-100 mt-5">
                       <div className="col-sm-12 col-md-6 pl-0">
                           <AniLink cover direction="left" duration={2}  to='/projects/tdf'>
-                              <div className="home__topProjects--tdf">
-                                  <BlackOpacity/>
-                                  <Image alt="Voir la page de TDF" filename="TDF_home.png" />
+                              <div className="home__topProjects--item border">
+                                  <div className="black-opacity">
+                                  </div>
                                   <span >TDF, l'intranet communautaire</span>
+                                  <Image alt="Voir la page de TDF" filename="TDF_home.png" />
                               </div>
                           </AniLink>
                       </div>
                       <div className="col-sm-12 col-md-6">
                           <AniLink cover direction="left" duration={2} to='/projects/ffyn'>
-                              <div className="home__topProjects--ffyn">
-                                  <BlackOpacity/>
-                                  <Image alt="Voir la page de Ffyn" filename="ffyn.png" />
-                                  <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
+                              <div className="home__topProjects--item border">
+                                  <div className="black-opacity">
+                                  </div>
+                                  <span>FFYN, le pont entre l'investisseur et l'asset manager</span>
+                                  <Image alt="Voir la page de Ffyn" filename="ffyn.png"  />
                               </div>
                           </AniLink>
                       </div>
                   </div>
-                  <div className="row mt-4 mb-4">
+                  <div className="row mt-5 mb-5">
                       <button className="button mx-auto"><AniLink cover direction="bottom" duration={2} to='/projects'>Voir tous mes projets</AniLink></button>
                   </div>
               </div>
