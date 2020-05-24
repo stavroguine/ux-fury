@@ -1,3 +1,5 @@
+@import "src/styles/colors";
+@import "src/styles/icons";
 /*
 ** Fonts
 **/
@@ -23,12 +25,6 @@ body {
   margin: 0;
 }
 
-header {
-  position: fixed;
-  width: 99.1vw;
-  z-index: 999;
-}
-
 .main-container {
   max-width: 100vw;
   font-family: "Futura lt bt";
@@ -39,6 +35,10 @@ header {
     margin-top: 50px;
   }
 }
+
+/*
+** Components
+**/
 
 .footer {
   padding-bottom: 10px;
@@ -72,22 +72,130 @@ header {
     transform: rotate(-45deg);
   }
 
-    .circle {
-      background-color:#fff;
-      border:1px solid black;
-      cursor: pointer;
-      height:25px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
-      width:25px;
-    }
+  .circle {
+    background-color:#fff;
+    border:1px solid black;
+    cursor: pointer;
+    height:25px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:25px;
+  }
 }
 
 header {
+  position: fixed;
+  width: 99.1vw;
+  z-index: 999;
+
+  a {
+    color: black;
+    cursor: pointer;
+
+    &:hover {
+      color: black;
+      text-decoration: none;
+      opacity: .5;
+    }
+
+    &:visited {
+      color: black;
+    }
+  }
+
   img {
+    position: relative;
     height: 60px;
     width: 60px;
+  }
+
+  ul {
+    overflow: hidden;
+    li {
+      color: black;
+
+      float: left;
+      font-size: 22px;
+      list-style-type: none;
+      padding-right: 15%;
+
+
+    }
+  }
+
+  .header__social {
+    width: 150%;
+
+    i {
+      padding-right: 5%;
+    }
+  }
+}
+
+.projects {
+  transition: .5s ease;
+  img {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    transition: .5s ease;
+
+    &:hover {
+      opacity: 0;
+    }
+  }
+
+  &.border:hover {
+    box-shadow:
+            1px 1px #373737,
+            1px 1px #373737,
+            1px 1px #373737,
+            1px 1px #373737,
+            1px 1px #373737,
+            1px 1px #373737;
+
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+    .black-opacity {
+      opacity: 0.6;
+    }
+    span {
+      opacity: 1;
+    }
+  }
+
+  .black-opacity {
+    background-color: black;
+    height: 396px ;
+    position: absolute;
+    opacity: 0;
+    width: 530px;
+    z-index: 1;
+    transition: .5s ease;
+  }
+
+  span {
+    background-color: $prune;
+    color: white !important;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: .5s ease;
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 3;
+  }
+
+  &--item {
+    height: 396px;
+    position: relative;
+    width: 530px;
   }
 }
 

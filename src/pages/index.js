@@ -4,10 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import quote from '../images/quote.svg';
 import '../styles/home.scss';
-import BlackOpacity from "../components/black-opacity";
-import Background from "../components/background";
-import Image from "../components/image";
+import Project from "../components/project";
 import wonder_woman from "../images/Wonder_woman.png"
+
 
 const IndexPage = () => (
   <Layout>
@@ -19,9 +18,11 @@ const IndexPage = () => (
                       <div className="col-sm-6 my-auto ">
                           <div className="home__splash--content align-middle">
                               <div className="home__splash--title">
-                                  <img src={quote}/>
-                                  <h1>La fureur de l'UX</h1>
-                                  <img src={quote}/>
+                                  <img src={quote} />
+                                  <h1 data-aos="fade"
+                                      data-aos-easing="linear"
+                                      data-aos-duration="1500">La fureur de l'UX</h1>
+                                  <img src={quote} />
                               </div>
                               <div className="home__splash--social">
                                   <ul>
@@ -31,13 +32,15 @@ const IndexPage = () => (
                                       <li><a target="_blank" href="https://www.youtube.com/user/GailOnTheMars">Youtube</a></li>
                                   </ul>
                               </div>
-                              <button className="button">
-                                  <AniLink paintDrip color="yellow"  to='/career'  >Découvrir mon parcours</AniLink>
-                              </button>
+                              <AniLink className="button" paintDrip color="yellow"  to='/career'  >
+                                  Découvrir mon parcours
+                              </AniLink>
                           </div>
                       </div>
                       <div className="col-sm-6 my-auto ">
-                          <img src={wonder_woman} className="home__ww"/>
+                          <img src={wonder_woman}  className="home__ww"                                   data-aos="fade"
+                               data-aos-easing="linear"
+                               data-aos-duration="1000"/>
                       </div>
                   </div>
               </div>
@@ -52,29 +55,19 @@ const IndexPage = () => (
                       </div>
                   </div>
                   <div className="row h-100 mt-5">
-                      <div className="col-sm-12 col-md-6 pl-0">
-                          <AniLink cover direction="left" duration={2}  to='/projects/tdf'>
-                              <div className="home__topProjects--item border">
-                                  <div className="black-opacity">
-                                  </div>
-                                  <span >TDF, l'intranet communautaire</span>
-                                  <Image alt="Voir la page de TDF" filename="TDF_home.png" />
-                              </div>
-                          </AniLink>
-                      </div>
-                      <div className="col-sm-12 col-md-6">
-                          <AniLink cover direction="left" duration={2} to='/projects/ffyn'>
-                              <div className="home__topProjects--item border">
-                                  <div className="black-opacity">
-                                  </div>
-                                  <span>FFYN, le pont entre l'investisseur et l'asset manager</span>
-                                  <Image alt="Voir la page de Ffyn" filename="ffyn.png"  />
-                              </div>
-                          </AniLink>
-                      </div>
+                      <Project link="/projects/tdf"
+                               text="TDF, l'intranet communautaire"
+                               alt="Voir la page de TDF"
+                               filename="TDF_home.png"/>
+                      <Project link="/projects/ffyn"
+                               text="FFYN, le pont entre l'investisseur et l'asset manager"
+                               alt="Voir la page de Ffyn"
+                               filename="ffyn.png"/>
                   </div>
                   <div className="row mt-5 mb-5">
-                      <button className="button mx-auto"><AniLink cover direction="bottom" duration={2} to='/projects'>Voir tous mes projets</AniLink></button>
+                      <AniLink className="button" cover direction="bottom" duration={2} to='/projects'>
+                          Voir tous mes projets
+                      </AniLink>
                   </div>
               </div>
           </section>

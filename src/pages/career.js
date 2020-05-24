@@ -11,9 +11,7 @@ import plant_two from '../images/career/4-Plant_two.png';
 import plant_leaf from '../images/career/5-Plant_leaf.png';
 import plant_bulbs from '../images/career/6-Plant_bulbs.png';
 import plant_flowers from '../images/career/7-Plant_flowers.png';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+
 
 const CareerPage = () => (
     <Layout>

@@ -1,10 +1,8 @@
 import React from "react"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../styles/projects.scss';
-import BlackOpacity from "../components/black-opacity";
-import Image from "../components/image";
+import Project from "../components/project";
 
 const ProjectsPage = () => (
     <Layout>
@@ -26,44 +24,24 @@ const ProjectsPage = () => (
             <section id="projectsOverview" className="projects__overview">
                 <div className="container">
                     <div className="row h-100 mt-5">
-                        <div className="col-sm-12 col-md-6">
-                            <AniLink cover direction="left" duration={2} to='/projects/tdf'>
-                                <div className="projects__overview--item">
-                                    <BlackOpacity/>
-                                    <Image alt="Voir la page de TDF" filename="TDF_home.png" />
-                                    <span >TDF, l'intranet communautaire</span>
-                                </div>
-                            </AniLink>
-                        </div>
-                        <div className="col-sm-12 col-md-6">
-                            <AniLink cover direction="left" duration={2} to='/projects/ffyn'>
-                                <div className="projects__overview--item">
-                                    <BlackOpacity/>
-                                    <Image alt="Voir la page de Ffyn" filename="ffyn.png" />
-                                    <span >FFYN, le pont entre l'investisseur et l'asset manager</span>
-                                </div>
-                            </AniLink>
-                        </div>
+                        <Project link="/projects/tdf"
+                                 text="TDF, l'intranet communautaire"
+                                 alt="Voir la page de TDF"
+                                 filename="TDF_home.png"/>
+                        <Project link="/projects/ffyn"
+                                 text="FFYN, le pont entre l'investisseur et l'asset manager"
+                                 alt="Voir la page de Ffyn"
+                                 filename="ffyn.png"/>
                     </div>
                     <div className="row h-100 mt-5">
-                        <div className="col-sm-12 col-md-6">
-                            <AniLink cover direction="left" duration={2} to='/projects/daradja'>
-                            <div className="projects__overview--item">
-                                <BlackOpacity/>
-                                <Image alt="Voir la page de Ffyn" filename="projects/4-Daradja-fhd.png" />
-                                <span>Daradja, un outil de prise de rendez-vous</span>
-                            </div>
-                            </AniLink>
-                        </div>
-                        <div className="col-sm-12 col-md-6">
-                            <AniLink cover direction="left" duration={2} to='/projects/penelope'>
-                            <div className="projects__overview--item">
-                                <BlackOpacity/>
-                                <Image alt="Voir la page de Pénéloppe" filename="projects/5-Peneloppe - fhd.png" />
-                                <span>La fabuleuse ballade de Pénéloppe, une visite immersive du Théâtre des Champs Elysées</span>
-                            </div>
-                            </AniLink>
-                        </div>
+                        <Project link="/projects/daradja"
+                                 text="Daradja, un outil de prise de rendez-vous"
+                                 alt="Voir la page de Daradja"
+                                 filename="projects/4-Daradja-fhd.png"/>
+                        <Project link="/projects/penelope"
+                                 text="La fabuleuse ballade de Pénéloppe, une visite immersive du Théâtre des Champs Elysées"
+                                 alt="Voir la page de Pénéloppe"
+                                 filename="projects/5-Peneloppe - fhd.png"/>
                     </div>
                 </div>
             </section>
