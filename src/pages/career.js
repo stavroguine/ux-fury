@@ -74,10 +74,9 @@ const CareerPage = () => (
                                      data-aos-duration="3000"/>
                                 <h3>Acte 1</h3>
                                 <h4> Le cinéma</h4>
-                                <span> Le cinéma... Ce 7ème art, nouveaux, toujours à la pointe de la perfection.</span>
+                                <span> Le cinéma : ce 7ème art, nouveaux, toujours à la pointe de la perfection.</span>
                                 <p>
-
-                                    J'ai eu la chance de pouvoir comprendre comment on réalisait un film : les story-boards, les scénarii...
+                                    J'ai eu la chance de pouvoir comprendre comment on réalisait un film : les story-boards, les scénarios.
                                     Et j'ai pu faire mes premiers pas dans le montage.
                                 </p>
 

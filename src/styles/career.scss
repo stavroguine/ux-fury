@@ -24,7 +24,10 @@
     height: 80vh;
     position: relative;
     width: 100vw;
-    @media (max-width: 1368px) { height: 92vh; }
+    @media (max-width: 1368px) {
+      height: 92vh;
+    }
+
     &--face {
       position: relative;
       img {
@@ -44,10 +47,10 @@
 
     &--step {
       text-align: center;
-      left: 25%;
+      left: 20%;
       margin-top: 5%;
       position: relative;
-      width: 50%;
+      width: 60%;
 
     }
   }

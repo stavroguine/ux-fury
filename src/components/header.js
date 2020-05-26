@@ -37,8 +37,6 @@ class Header extends Component {
             >
                 <div
                     style={{
-                        margin: `0 20%`,
-                        maxWidth: 960,
                         padding: `1rem`,
                     }}
                     className="container"

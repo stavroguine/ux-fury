@@ -7,7 +7,6 @@ import '../styles/home.scss';
 import Project from "../components/project";
 import wonder_woman from "../images/Wonder_woman.png"
 
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -15,8 +14,8 @@ const IndexPage = () => (
           <section id="splashScreen" className="home__splash">
               <div className="container h-100">
                   <div className="row h-100">
-                      <div className="col-sm-6 my-auto ">
-                          <div className="home__splash--content align-middle">
+                      <div className="col-sm-6">
+                          <div className="home__splash--content">
                               <div className="home__splash--title">
                                   <img src={quote} />
                                   <h1 data-aos="fade"
@@ -37,7 +36,7 @@ const IndexPage = () => (
                               </AniLink>
                           </div>
                       </div>
-                      <div className="col-sm-6 my-auto ">
+                      <div className="col-sm-6  ">
                           <img src={wonder_woman}  className="home__ww"                                   data-aos="fade"
                                data-aos-easing="linear"
                                data-aos-duration="1000"/>

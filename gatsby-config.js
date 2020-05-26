@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `La fureur de l'UX`,
+        short_name: `UX-fury`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,

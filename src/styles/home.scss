@@ -6,6 +6,8 @@
 **/
 
 .home {
+
+
   a {
     color: $green;
     text-decoration: none;
@@ -57,14 +59,23 @@
     background-size: cover;
     overflow: hidden;
     height: 90vh;
-    width: 99.1vw;
 
     .home__ww {
       height: auto;
-      margin-top: 16%;
-      max-width: 130%;
+      display: block;
+      max-width:570px;
+      max-height:985px;
+      padding-top: 17%;
+      width: auto;
       position: relative;
       z-index: 2;
+
+      @media screen and (min-width: 1920px) {
+          max-width:828px;
+          max-height:1060px;
+          width: auto;
+          height: auto;
+      }
     }
 
     &::after {
@@ -88,18 +99,23 @@
 
     &--content {
       display: inline-block;
+      padding-top: 64%;
       position: relative;
       width: 100%;
       z-index: 3;
-
       .button {
         left: 14%;
+      }
+
+      @media screen and (min-width: 1920px) {
+        padding-top: 75%;
       }
     }
 
     &--title {
-      display: inline;
-      width: 110%;
+      display: inline-block;
+      max-width: 88%;
+      width: inherit;
 
       img {
         display: inline;
@@ -112,9 +128,8 @@
         }
 
         &:nth-child(3) {
-          left: 84%;
-          position: absolute;
-          bottom: 54%;
+          float: right;
+          margin-top: -25px;
         }
       }
     }
@@ -154,7 +169,8 @@
       margin-right: auto;
       left: 0;
       right: 0;
-      width: 19%;
+    max-width: 22%;
+      width: auto;
     }
   }
 
@@ -162,8 +178,8 @@
     background-color: $prune;
     color: white;
     font-size: 20px;
-    height: 50vh;
     margin-top: 4%;
+    padding-bottom: 5%;
 
     h2 {
       margin-top: 60px;
