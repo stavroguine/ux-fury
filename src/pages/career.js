@@ -1,11 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import Background from "../components/background"
 import SEO from "../components/seo"
 import '../styles/career.scss';
 import photo from "../images/career/2-Photo.png"
+import leaf from "../images/career/leaf.svg";
+import groupe_404 from "../images/career/Groupe_404.png";
+import groupe_402 from "../images/career/Groupe_402.png";
 import plant_one from '../images/career/3-Plant_one.png';
 import plant_two from '../images/career/4-Plant_two.png';
 import plant_leaf from '../images/career/5-Plant_leaf.png';
@@ -59,15 +60,23 @@ const CareerPage = () => (
 
             </section>
             <section id="journey" className="career__journey">
+                <img src={groupe_404} className="float-right"  />
+                <img src={leaf} className="career__leaf" />
+                <img src={leaf} className="career__leaf" />
+                <img src={leaf} className="career__leaf" />
+                <img src={groupe_402} className="career__leaf"/>
                 <div className="container" >
                     <div className="row">
+
                         <div className="col-sm-12 col-md-12"     >
                             <h2>Mais comment en suis-je arrivée là ?</h2>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-sm-12 col-md-12 ">
+
                             <div className="career__journey--step align-items-center  "  >
+
                                 <img src={plant_one}
                                      data-aos="fade-up"
                                      data-aos-easing="linear"
@@ -79,10 +88,10 @@ const CareerPage = () => (
                                     J'ai eu la chance de pouvoir comprendre comment on réalisait un film : les story-boards, les scénarios.
                                     Et j'ai pu faire mes premiers pas dans le montage.
                                 </p>
-
                             </div>
                         </div>
                     </div>
+
                     <div className="row">
                         <div className="col-sm-12 col-md-12 ">
                             <div className="career__journey--step "   >
@@ -100,6 +109,7 @@ const CareerPage = () => (
                             </div>
                         </div>
                     </div>
+
                     <div className="row">
                         <div className="col-sm-12 col-md-12 ">
                             <div className="career__journey--step">

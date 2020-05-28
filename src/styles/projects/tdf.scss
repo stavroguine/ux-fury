@@ -21,6 +21,15 @@
     background-color: $prune;
     color: white;
     margin-bottom: 50px;
+
+    h2 {
+      margin-top: 60px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin-bottom: 60px;
+    }
   }
 
   &__steps {
