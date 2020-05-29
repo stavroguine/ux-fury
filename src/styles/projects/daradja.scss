@@ -23,21 +23,21 @@
   &__intro {
     background-color: $green;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 
     h2 {
-      margin-top: 60px;
-      margin-bottom: 30px;
+      margin-top: 3.75rem;
+      margin-bottom: 1.875rem;
     }
 
     p {
-      margin-bottom: 60px;
+      margin-bottom: 3.75rem;
     }
   }
 
   &__steps {
     h3 {
-      margin-bottom: 50px;
+      margin-bottom: 3.125rem;
     }
 
     ul,li {
@@ -51,14 +51,14 @@
     }
 
     &--item {
-      margin-top: 50px;
+      margin-top: 3.125rem;
     }
   }
 
   &__recap {
     background-color: $blue;
     color: white;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     height: 60vh;
     width: 99.1vw;
 

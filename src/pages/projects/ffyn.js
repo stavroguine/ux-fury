@@ -5,6 +5,7 @@ import '../../styles/projects/ffyn.scss';
 import Tag from "../../components/tag";
 import Background from "../../components/background";
 import Image from "../../components/image";
+import OtherProject from "../../components/otherProject";
 
 const FfynPage = () => (
     <Layout>
@@ -77,7 +78,7 @@ const FfynPage = () => (
                         <div className="row h-100">
                             <div className="col-sm-12 col-md-6 pl-0">
                                 <h4>La découverte du problème</h4>
-                                <p>
+                                <p className="h-45">
                                     Grâce aux KPIs, nous avons remarqué que certains utilisateurs ne venaient qu’une fois par mois sur la solution. Nous avons mené une enquête pour savoir précisément pourquoi ils ne venaient qu’une fois par mois. Le problème qui est ressorti était que les utilisateurs inscrits n’étaient pas notifiés de l’activité sur FFYN. Et qu’ils accédaient à l’application que pour se mettre à la page. Nous avons donc pensé aux digest emails.
                                 </p>
                                 <Image alt="Ffyn Zoning" filename="1-Ffyn - zonning (6) - FHD.png" className="img-step" />
@@ -133,11 +134,10 @@ const FfynPage = () => (
                         <div className="row h-100">
                             <div className="col-sm-12 col-md-6 pl-0">
                                 <h4>La découverte du problème</h4>
-                                <p>
+                                <p className="h-42">
                                     FFYN fonctionnait par groupe d’utilisateurs. Les utilisateurs d’un groupe n’avaient pas les mêmes interlocuteurs dans les autres entités. Il pouvait y avoir des confusions dans les échanges, qui entraînaient des pertes de temps.
                                 </p>
                                 <Image alt="Ffyn Nouveau post" filename="4-FFYN - send to.png" className="img-step" />
-
                             </div>
                             <div className="col-sm-12 col-md-6">
                                 <h4>Notre réponse</h4>

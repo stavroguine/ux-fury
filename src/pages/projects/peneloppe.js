@@ -2,15 +2,16 @@ import React from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../styles/projects/penelope.scss';
+import '../../styles/projects/peneloppe.scss';
 import Tag from "../../components/tag";
 import Background from "../../components/background";
 import Image from "../../components/image";
+import OtherProject from "../../components/otherProject";
 
 const PenelopePage = () => (
     <Layout>
-        <SEO title="Penelope" />
-        <main className="penelope">
+        <SEO title="peneloppe" />
+        <main className="peneloppe">
             <div id="#top"></div>
 
             <section id="penelopeSplash" className="penelope__splash">
@@ -101,7 +102,7 @@ const PenelopePage = () => (
                                 </p>
                             </div>
                             <div className="col-sm-12 col-md-6">
-                                <Image alt="Mock up ipad" filename="3-Penelope - Mock up Ipad inside the TCE - FHD.png"  />
+                                <Image alt="Mock up ipad" filename="3-peneloppe - Mock up Ipad inside the TCE - FHD.png"  />
                             </div>
                         </div>
                     </div>
@@ -187,7 +188,7 @@ const PenelopePage = () => (
                                 <Image alt="Entrée du TCE" filename="11-Peneloppe - Photo Entree du TCE - FHD.png"  />
                             </div>
                         </div>
-                        <div className="row h-100 mt-5">
+                        <div className="row h-100 ">
                             <div className="col-sm-12 col-md-4 pl-0">
                                 <p>
                                     La première partie de l’histoire du TCE, de
@@ -215,7 +216,7 @@ const PenelopePage = () => (
                                 </div>
                             </div>
                         </div>
-                        <div className="row h-100 mt-5">
+                        <div className="row h-100 ">
                             <div className="col-sm-12 col-md-4 pl-0">
                             </div>
                             <div className="col-sm-12 col-md-4 pl-5">
@@ -245,7 +246,7 @@ const PenelopePage = () => (
                                 </p>
                             </div>
                         </div>
-                        <div className="row h-100 mt-5">
+                        <div className="row h-100 ">
                             <div className="col-sm-12 col-md-12 ">
                                 <Image alt="Mock up Ipad Stylo" filename="12-Peneloppe - Mock up Ipad and Stylo.png"  />
                             </div>

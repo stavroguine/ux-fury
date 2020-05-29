@@ -5,6 +5,7 @@ import '../../styles/projects/daradja.scss';
 import Tag from "../../components/tag";
 import Background from "../../components/background";
 import Image from "../../components/image";
+import OtherProject from "../../components/otherProject";
 
 const DaradjaPage = () => (
     <Layout>
@@ -105,7 +106,7 @@ const DaradjaPage = () => (
                                     publics visés : les mentors et les membre du personnel de l’association.
                                 </p>
                             </div>
-                            <div className="col-sm-12 col-md-4">
+                            <div className="col-sm-12 col-md-4 pl-5">
                                 <Image alt="Brainstorming" filename="2-Daradja - brainstorming - FHD.png"  />
                             </div>
                         </div>
@@ -120,7 +121,7 @@ const DaradjaPage = () => (
                             <div className="col-sm-12 col-md-4">
                                 <Image alt="Schema mentors" filename="3-Daradja - Schéma BPMN MENTORS - FHD.png"  />
                             </div>
-                            <div className="col-sm-12 col-md-8">
+                            <div className="col-sm-12 col-md-8 pl-5">
                                 <p>
                                     Pour mieux comprendre le déroulement du mentorat dans l’association,
                                     nous avons fait un brainstorming sur les mentors, pour avoir le plus
@@ -142,7 +143,7 @@ const DaradjaPage = () => (
                             <div className="col-sm-12 pl-0">
                                 <h2>Wireflow de notre application mobile pour les mentors</h2>
                             </div>
-                            <div className="col-sm-12 pl-0">
+                            <div className="col-sm-12 pl-0 mt-5">
                                 <Image alt="Daradja wireflow" filename="4-DARADJA - WireFlow - FHD.png"  />
                             </div>
                         </div>
@@ -205,8 +206,8 @@ const DaradjaPage = () => (
                                 <Image alt="Daradja page rendez-vous 2" filename="8-Daradja - Screen Page rendez-vous - Commentaire rempli - FHD.png"  />
                             </div>
                         </div>
-                        <div className="row h-100 mt-5">
-                            <div className="col-sm-12 col-md-12 ">
+                        <div className="row h-100 ">
+                            <div className="col-sm-12 col-md-12 mt-5 ">
                                 <Image alt="Daradja mock up Iphone" filename="1-Daradja - Mock up Iphone face - FHD.png"  />
                             </div>
                         </div>
@@ -226,6 +227,7 @@ const DaradjaPage = () => (
                     </div>
                 </Background>
             </section>
+            <OtherProject/>
         </main>
     </Layout>
 );

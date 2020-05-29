@@ -37,7 +37,8 @@ const IndexPage = () => (
                           </div>
                       </div>
                       <div className="col-sm-6  ">
-                          <img src={wonder_woman}  className="home__ww"                                   data-aos="fade"
+                          <img src={wonder_woman}  className="home__ww"
+                               data-aos="fade"
                                data-aos-easing="linear"
                                data-aos-duration="1000"/>
                       </div>
@@ -46,14 +47,14 @@ const IndexPage = () => (
           </section>
           <section id="topProjects" className="home__topProjects">
               <div className="container">
-                  <div className="row h-100 mt-5">
+                  <div className="row h-100 mt-5 ">
                       <div className="sol-sm-12">
                           <div className="home__topProjects--title">
                               <h2>Mes projets phares</h2>
                           </div>
                       </div>
                   </div>
-                  <div className="row h-100 mt-5">
+                  <div className="row h-100 mt-5 ">
                       <Project link="/projects/tdf"
                                text="TDF, l'intranet communautaire"
                                alt="Voir la page de TDF"

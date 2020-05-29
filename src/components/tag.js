@@ -6,7 +6,7 @@ const Tag = props  => (
              backgroundColor: `#2F7B27`,
              border: `5px solid #2F7B27`,
              color: `white`,
-             fontSize: `20px`,
+             fontSize: `1.25rem`,
              marginRight: `5%`,
          }}>
         {props.children}

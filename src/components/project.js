@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Image from "./image";
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 

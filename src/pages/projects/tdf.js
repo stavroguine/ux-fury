@@ -5,6 +5,7 @@ import '../../styles/projects/tdf.scss';
 import Tag from "../../components/tag";
 import Background from "../../components/background";
 import Image from "../../components/image";
+import OtherProject from "../../components/otherProject";
 
 const TdfPage = () => (
     <Layout>
@@ -106,7 +107,7 @@ const TdfPage = () => (
                         </div>
                     </div>
                     <div className="tdf__steps--item">
-                        <div className="row h-100">
+                        <div className="row h-100 ">
                             <div className="col-sm-12 col-md-4">
                                 <Image alt="TDF Accueil" filename="4-TDF - Screen HomePage - FHD.png" />
                             </div>
@@ -154,6 +155,8 @@ const TdfPage = () => (
                     </div>
                 </Background>
             </section>
+            <OtherProject/>
+
         </main>
     </Layout>
 );

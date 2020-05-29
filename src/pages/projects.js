@@ -23,7 +23,7 @@ const ProjectsPage = () => (
             </section>
             <section id="projectsOverview" className="projects__overview">
                 <div className="container">
-                    <div className="row h-100 mt-5">
+                    <div className="row h-100 mt-5 ">
                         <Project link="/projects/tdf"
                                  text="TDF, l'intranet communautaire"
                                  alt="Voir la page de TDF"
@@ -33,12 +33,12 @@ const ProjectsPage = () => (
                                  alt="Voir la page de Ffyn"
                                  filename="ffyn.png"/>
                     </div>
-                    <div className="row h-100 mt-5">
+                    <div className="row h-100 mt-5 ">
                         <Project link="/projects/daradja"
                                  text="Daradja, un outil de prise de rendez-vous"
                                  alt="Voir la page de Daradja"
                                  filename="projects/4-Daradja-fhd.png"/>
-                        <Project link="/projects/penelope"
+                        <Project link="/projects/peneloppe"
                                  text="La fabuleuse ballade de Pénéloppe, une visite immersive du Théâtre des Champs Elysées"
                                  alt="Voir la page de Pénéloppe"
                                  filename="projects/5-Peneloppe - fhd.png"/>
