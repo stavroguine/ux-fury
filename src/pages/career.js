@@ -4,9 +4,9 @@ import Background from "../components/background"
 import SEO from "../components/seo"
 import '../styles/career.scss';
 import photo from "../images/career/2-Photo.png"
-import leaf from "../images/career/leaf.svg";
-import groupe_404 from "../images/career/Groupe_404.png";
-import groupe_402 from "../images/career/Groupe_402.png";
+import leaf from "../images/leaf.svg";
+import groupe_404 from "../images/Groupe_404.png";
+import groupe_402 from "../images/Groupe_402.png";
 import plant_one from '../images/career/3-Plant_one.png';
 import plant_two from '../images/career/4-Plant_two.png';
 import plant_leaf from '../images/career/5-Plant_leaf.png';
@@ -61,10 +61,10 @@ const CareerPage = () => (
             </section>
             <section id="journey" className="career__journey">
                 <img src={groupe_404} className="float-right"  />
-                <img src={leaf} className="career__leaf" />
-                <img src={leaf} className="career__leaf" />
-                <img src={leaf} className="career__leaf" />
-                <img src={groupe_402} className="career__leaf"/>
+                <img src={leaf} className="leaf leaf__right" />
+                <img src={leaf} className="leaf leaf__right" />
+                <img src={leaf} className="leaf leaf__right" />
+                <img src={groupe_402} className="leaf leaf__right"/>
                 <div className="container" >
                     <div className="row">
 

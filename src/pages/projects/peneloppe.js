@@ -7,19 +7,22 @@ import Tag from "../../components/tag";
 import Background from "../../components/background";
 import Image from "../../components/image";
 import OtherProject from "../../components/otherProject";
+import Context from "../../components/context";
+import leaf from "../../images/leaf.svg";
+import groupe_404 from "../../images/Groupe_404.png";
+import groupe_402 from "../../images/Groupe_402.png";
+import branche from "../../images/branche.png";
 
-const PenelopePage = () => (
+const peneloppePage = () => (
     <Layout>
-        <SEO title="peneloppe" />
+        <SEO title="Peneloppe" />
         <main className="peneloppe">
-            <div id="#top"></div>
-
-            <section id="penelopeSplash" className="penelope__splash">
+            <section id="peneloppeSplash" className="peneloppe__splash">
                 <div className="container h-100">
                     <div className="row h-100">
                         <div className="col-sm-12 col-md-12 my-auto ">
-                            <div className="penelope__splash--content align-middle">
-                                <div className="penelope__splash--title ">
+                            <div className="peneloppe__splash--content align-middle">
+                                <div className="peneloppe__splash--title ">
                                     <h1>La fabuleuse balade de Pénéloppe</h1>
                                 </div>
                                 <Tag>Tablette</Tag>
@@ -32,47 +35,26 @@ const PenelopePage = () => (
                     </div>
                 </div>
             </section>
-            <section id="penelopeIntro" className="penelope__intro">
-                <div className="container h-100">
-                    <div className="row h-100">
-                        <div className="col-sm-12  pl-0">
-                            <div className="penelope__intro--title">
-                                <h2>Le contexte</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row h-100 ">
-                        <div className="col-sm-12 col-md-4 pl-0">
-                            <h3>Présentation</h3>
-                            <p>
-                                Le Théâtre des Champs-Elysées, grande salle de concerts parisienne, et classé monument historique, veut apporter un souffle nouveau dans l’histoire du Théâtre des Champs-Elysées. Ils décident de faire un partenariat avec deux écoles: une spécialisée dans le design et une autre spécialisée dans le management de projet culturel.
-                            </p>
-                        </div>
-                        <div className="col-sm-12 col-md-4  pl-0">
-                            <h3>Le problème</h3>
-                            <p>
-                                Le Théâtre des Champs-Elysées perd en nouveauté et en innovation. Cela se ressent dans leur public, qui peine à se renouveller : une programmation qui ne parle qu’aux plus expérimentés, un côté innacessible auprès des jeunes générations.
-                            </p>
-                        </div>
-                        <div className="col-sm-12 col-md-4  pl-0">
-                            <h3>La résolution</h3>
-                            <p>
-                                Nous avons proposé une balade intéractive au sein du Théâtre : pour découvrir l’histoire du lieu, introduire le nouveau public à la musique classique. Notre concept a été d’allier les nouvelles technologies au monde du classique, pour dépoussiérer l’image de cet art, qui est loin d’être “classique”.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <section id="peneloppeIntro" className="peneloppe__intro">
+                <Context
+                    presentation="Le Théâtre des Champs-Elysées, grande salle de concerts parisienne,
+                            et classé monument historique, veut apporter un souffle nouveau dans son histoire.
+                            Ils décident de faire un partenariat avec deux écoles:
+                            une spécialisée dans le design et une autre spécialisée dans le management de projet culturel."
+                    problem="Le Théâtre des Champs-Elysées perd en nouveauté et en innovation. Cela se ressent dans leur public, qui peine à se renouveller : une programmation qui ne        parle qu’aux plus expérimentés, un côté innacessible auprès des jeunes générations."
+                    resolution="Nous avons proposé une balade intéractive au sein du Théâtre : pour découvrir l’histoire du lieu, introduire le nouveau public à la musique classique.        Notre concept a été d’allier les nouvelles technologies au monde du classique, pour dépoussiérer l’image de cet art, qui est loin d’être “classique”."
+                />
             </section>
-            <section id="penelopeSteps" className="penelope__steps">
+            <section id="peneloppeSteps" className="peneloppe__steps">
                 <div className="container">
                     <div className="row h-100">
                         <div className="col-sm-12  pl-0">
-                            <div className="penelope__steps--title">
+                            <div className="peneloppe__steps--title">
                                 <h2>Les étapes du projet</h2>
                             </div>
                         </div>
                     </div>
-                    <div className="penelope__steps--item">
+                    <div className="peneloppe__steps--item">
                         <div className="row h-100">
                             <div className="col-sm-12 pl-0">
                                 <h3>La phase de recherche</h3>
@@ -84,12 +66,12 @@ const PenelopePage = () => (
                                     Nous voulions toucher les jeunes, puisque ce sont eux qui vont permettre de renouveller le public. Nous avons mené une enquête quantitative  : avaient-ils déjà été voir un concert de classique? Quelles salles de concert connaissaient-ils? Quels étaient leurs avis sur ces salles de concert? Comment voyaient-ils la musique classique en général?
                                 </p>
                             </div>
-                            <div className="col-sm-12 col-md-6">
+                            <div className="col-sm-12 col-md-6 pl-5">
                                 <Image alt="Peneloppe - La tour Eiffel illumine le TCE" filename="2-Peneloppe - La tour Eiffel illumine le TCE - FHD.png"  />
                             </div>
                         </div>
                     </div>
-                    <div className="penelope__steps--item">
+                    <div className="peneloppe__steps--item">
                         <div className="row h-100">
                             <div className="col-sm-12 pl-0">
                                 <h3>La phase d'idéation</h3>
@@ -101,12 +83,12 @@ const PenelopePage = () => (
                                     Les résultats de notre enquête ont été que les jeunes ne connaissaient que très peu le Théâtre des Champs-Elysées, avec un public plutôt fermé , et qui n’était pas accessible. L’histoire du Théâtre étant riche en scandales, nous avons voulu joué sur cette facette. C’est pourquoi, nous avons pensé à un parcours dans le Théâtre, qui raconte l’histoire de ce monument. A travers une tablette, le spectateur revit les évènements passés.
                                 </p>
                             </div>
-                            <div className="col-sm-12 col-md-6">
-                                <Image alt="Mock up ipad" filename="3-peneloppe - Mock up Ipad inside the TCE - FHD.png"  />
+                            <div className="col-sm-12 col-md-6 pl-5">
+                                <Image alt="Mock up ipad" filename="3-Penelope - Mock up Ipad inside the TCE - FHD.png"  />
                             </div>
                         </div>
                     </div>
-                    <div className="penelope__steps--item--prod pl-0">
+                    <div className="peneloppe__steps--item--prod pl-0">
                         <div className="row h-100 pl-0">
                             <div className="col-sm-12 pl-0">
                                 <h3>La phase de production</h3>
@@ -154,7 +136,7 @@ const PenelopePage = () => (
                             </div>
                         </div>
                     </div>
-                    <div className="penelope__steps--item">
+                    <div className="peneloppe__steps--item">
                         <div className="row h-100">
                             <div className="col-sm-12 pl-0">
                                 <h3>La phase graphique</h3>
@@ -189,7 +171,7 @@ const PenelopePage = () => (
                             </div>
                         </div>
                         <div className="row h-100 ">
-                            <div className="col-sm-12 col-md-4 pl-0">
+                            <div className="col-sm-12 col-md-4 pl-0 mt-5">
                                 <p>
                                     La première partie de l’histoire du TCE, de
                                     1913 à 1945, qui est symbolisé par le parcours
@@ -199,7 +181,7 @@ const PenelopePage = () => (
                                     Printemps de Stravinsky.
                                 </p>
                             </div>
-                            <div className="col-sm-12 col-md-4 pl-5">
+                            <div className="col-sm-12 col-md-4 pl-5 mt-5">
                                 <div className="journey">
                                     <h4>Parcours Liberte</h4>
                                     <ul className="journey__color journey__color--liberty">
@@ -217,9 +199,9 @@ const PenelopePage = () => (
                             </div>
                         </div>
                         <div className="row h-100 ">
-                            <div className="col-sm-12 col-md-4 pl-0">
+                            <div className="col-sm-12 col-md-4 pl-0 mt-5">
                             </div>
-                            <div className="col-sm-12 col-md-4 pl-5">
+                            <div className="col-sm-12 col-md-4 pl-5 mt-5" >
                                 <div className="journey">
                                     <h4>Parcours Force</h4>
                                     <ul className="journey__color journey__color--strength">
@@ -235,7 +217,7 @@ const PenelopePage = () => (
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-4 pl-5">
+                            <div className="col-sm-12 col-md-4 pl-5 mt-5">
                                 <p>
                                     Pour la deuxième partie de l’histoire du Théâtre
                                     des Champs-élysées, de 1946 à nos jours, qui
@@ -247,17 +229,17 @@ const PenelopePage = () => (
                             </div>
                         </div>
                         <div className="row h-100 ">
-                            <div className="col-sm-12 col-md-12 ">
+                            <div className="col-sm-12 col-md-12 mt-5 ">
                                 <Image alt="Mock up Ipad Stylo" filename="12-Peneloppe - Mock up Ipad and Stylo.png"  />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="penelopeRecap" className="penelope__recap">
+            <section id="peneloppeRecap" className="peneloppe__recap">
                 <Background>
                     <div className="col-sm-12 col-md-12">
-                        <div className="penelope__recap--speech ">
+                        <div className="peneloppe__recap--speech ">
                             <h2>Ce que j'ai appris</h2>
                             <p>
                                 Cette collaboration entre mon université et le Théâtre des Champs-Elysées
@@ -270,8 +252,9 @@ const PenelopePage = () => (
                     </div>
                 </Background>
             </section>
+            <OtherProject/>
         </main>
     </Layout>
 );
 
-export default PenelopePage
+export default peneloppePage

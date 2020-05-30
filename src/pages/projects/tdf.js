@@ -6,6 +6,7 @@ import Tag from "../../components/tag";
 import Background from "../../components/background";
 import Image from "../../components/image";
 import OtherProject from "../../components/otherProject";
+import Context from "../../components/context";
 
 const TdfPage = () => (
     <Layout>
@@ -14,7 +15,7 @@ const TdfPage = () => (
             <section id="tdfSplash" className="tdf__splash">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="col-sm-12 col-md-8 my-auto ">
+                        <div className="col-sm-12 col-md-12 my-auto ">
                             <div className="tdf__splash--content align-middle">
                                 <div className="tdf__splash--title ">
                                     <h1>TDF, l'intranet communautaire</h1>
@@ -25,57 +26,15 @@ const TdfPage = () => (
                                 <Tag>UX/UI Designer</Tag>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-4 my-auto">
-                            <img src="" className="img-fluid content" />
-                        </div>
                     </div>
                 </div>
             </section>
             <section id="tdfIntro" className="tdf__intro">
-                <div className="container h-100">
-                    <div className="row h-100">
-                        <div className="sol-sm-12">
-                            <div className="tdf__intro--title">
-                                <h2>Le contexte</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row h-100">
-                        <div className="sol-sm-12 col-md-4 pl-0">
-                            <h3>Présentation</h3>
-                            <p>
-                                TDF, opérateur d’infrastructure et entreprise de
-                                télécom, voulait refondre leur site intranet, en
-                                incluant des technologies plus poussées.
-                            </p>
-
-                        </div>
-                        <div className="sol-sm-12 col-md-4">
-                            <h3>Le problème</h3>
-                            <p>
-                                Leur ancien intranet n’était plus d’actualité au
-                                niveau du design.  S’ajoutait à cela des
-                                informations qui n’étaient plus fiables et
-                                toujours visibles sur leur intranet. Ce qui
-                                pouvait fréner, voir complexifier les tâches des
-                                employés. Les employés ne trouvaient pas non
-                                plus leur place dans ce flot d’information, et
-                                demander un espace plus communautaire.
-                            </p>
-
-                        </div>
-                        <div className="sol-sm-12 col-md-4">
-                            <h3>La résolution</h3>
-                            <p>
-                                Notre solution a été de refondre leur intranet
-                                sur un Sharepoint, en incluant les solutions
-                                Office 365, pour construire un intranet perrein
-                                et un espace plus communautaire avec
-                                Yammer.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <Context
+                    presentation="TDF, opérateur d’infrastructure et entreprise de télécom, voulait refondre leur site intranet, en incluant des technologies plus poussées."
+                    problem="Leur ancien intranet n’était plus d’actualité au niveau du design. S’ajoutait à cela des informations qui n’étaient plus fiables et toujours visibles sur leur intranet. Ce qui pouvait fréner, voir complexifier les tâches des employés. Les employés ne trouvaient pas non plus leur place dans ce flot d’information, et demander un espace plus communautaire."
+                    resolution="Notre solution a été de refondre leur intranet sur un Sharepoint, en incluant les solutions Office 365, pour construire un intranet perrein et un espace plus communautaire avec Yammer."
+                />
             </section>
             <section id="tdfSteps" className="tdf__steps">
                 <div className="container">
@@ -156,7 +115,6 @@ const TdfPage = () => (
                 </Background>
             </section>
             <OtherProject/>
-
         </main>
     </Layout>
 );

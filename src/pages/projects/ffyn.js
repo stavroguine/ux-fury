@@ -6,6 +6,8 @@ import Tag from "../../components/tag";
 import Background from "../../components/background";
 import Image from "../../components/image";
 import OtherProject from "../../components/otherProject";
+import Context from "../../components/context";
+
 
 const FfynPage = () => (
     <Layout>
@@ -30,35 +32,11 @@ const FfynPage = () => (
                 </div>
             </section>
             <section id="ffynIntro" className="ffyn__intro">
-                <div className="container h-100">
-                    <div className="row h-100">
-                        <div className="col-sm-12 pl-0">
-                            <div className="ffyn__intro--title">
-                                <h2>Le contexte</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row h-100 ">
-                        <div className="col-sm-12 col-md-4 pl-0">
-                            <h3>Présentation</h3>
-                            <p>
-                                Les asset managers, ceux qui vendent les fonds, et les investisseurs, ceux qui achètent les fonds, sont souvent en contact. Le moyen le plus simple de communiquer est le mail. Ce moyen trouve vite ses limites.
-                            </p>
-                        </div>
-                        <div className="col-sm-12 col-md-4">
-                            <h3>Le problème</h3>
-                            <p>
-                                Les informations envoyées par mail sont nombreuses : certaines sont valables, quand d’autres ne sont plus d’actualités. Cependant la messagerie est aussi utilisée quotidiennement par ces deux professions. L’information est noyée parmi la quantité de mail. Il fallait trouver un moyen de séparer les informations quotidiennes et les informations sur les fonds.
-                            </p>
-                        </div>
-                        <div className="col-sm-12 col-md-4">
-                            <h3>La résolution</h3>
-                            <p>
-                                FFYN répond à cette problématique en lançant un outil qui va permettre de centraliser toutes les informations sur les fonds.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <Context
+                    presentation="Les asset managers, ceux qui vendent les fonds, et les investisseurs, ceux qui achètent les fonds, sont souvent en contact. Le moyen le plus simple de communiquer est le mail. Ce moyen trouve vite ses limites."
+                    problem="Les informations envoyées par mail sont nombreuses : certaines sont valables, quand d’autres ne sont plus d’actualités. Cependant la messagerie est aussi utilisée quotidiennement par ces deux professions. L’information est noyée parmi la quantité de mail. Il fallait trouver un moyen de séparer les informations quotidiennes et les informations sur les fonds."
+                    resolution="FFYN répond à cette problématique en lançant un outil qui va permettre de centraliser toutes les informations sur les fonds."
+                />
             </section>
             <section className="ffynSteps" className="ffyn__steps">
                 <div className="container">
@@ -226,6 +204,7 @@ const FfynPage = () => (
                     </div>
                 </Background>
             </section>
+            <OtherProject/>
         </main>
     </Layout>
 );

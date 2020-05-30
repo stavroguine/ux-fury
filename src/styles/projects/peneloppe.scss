@@ -31,17 +31,7 @@
 
   &__intro {
     background-color: $prune;
-    color: white;
-    margin-bottom: 3.125rem;
 
-    h2 {
-      margin-top: 3.75rem;
-      margin-bottom: 1.875rem;
-    }
-
-    p {
-      margin-bottom: 3.75rem;
-    }
   }
 
   &__steps {
@@ -84,13 +74,6 @@
   &__recap {
     background-color: $blue;
     color: white;
-    margin-top: 3.125rem;
-    height: 60vh;
-    width: 99.1vw;
-
-    p {
-      width: 50%;
-    }
   }
 
   .journey {
@@ -109,37 +92,37 @@
 
         &--liberty {
           :first-child {
-            background-color: red;
+            background-color: #DF7B9E;
           }
 
           :nth-child(2) {
-            background-color: blue;
+            background-color: #9D97CA;
           }
 
           :nth-child(3) {
-            background-color: green;
+            background-color: #50BEEC;
           }
 
           :nth-child(4) {
-            background-color: yellow;
+            background-color: #9ECCA4;
           }
         }
 
         &--strength {
           :first-child {
-            background-color: rebeccapurple;
+            background-color: #89A4B5;
           }
 
           :nth-child(2) {
-            background-color: brown;
+            background-color: #DEB524;
           }
 
           :nth-child(3) {
-            background-color: goldenrod;
+            background-color: #906D3B;
           }
 
           :nth-child(4) {
-            background-color: yellowgreen;
+            background-color: #C73428;
           }
         }
 

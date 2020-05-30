@@ -140,6 +140,42 @@ header {
   }
 }
 
+.branch {
+  position: absolute;
+}
+
+.context {
+  color: white;
+  height: 60vh;
+  margin-bottom: 3.125rem;
+
+  h2 {
+    margin-top: 3.75rem;
+    margin-bottom: 1.875rem;
+  }
+
+  p {
+    margin-bottom: 3.75rem;
+  }
+}
+
+.leaf {
+  max-height: 3.75rem;
+  max-width: 3.75rem;
+  position: absolute;
+
+    &__left {
+      left: 7%;
+      top: 9%;
+      transform: rotate(180deg);
+    }
+
+    &__right {
+      left: 88%;
+      transform: scaleX(-1) rotate(180deg);
+    }
+}
+
 #otherProject {
   background-color: $white-back;
   img {
@@ -212,6 +248,21 @@ header {
     height: 396px;
     position: relative;
     width: 530px;
+  }
+}
+
+.recap {
+  color: white;
+  margin-top: 3.125rem;
+  height: 60vh;
+  width: 99.1vw;
+
+  p {
+    width: 50%;
+  }
+
+  .leaf {
+    transform: unset !important;
   }
 }
 

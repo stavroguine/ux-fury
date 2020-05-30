@@ -8,8 +8,11 @@
 .tdf {
   &__splash {
     background-color: $white-back;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 54vh;
-    width: 100vw;
+    width: 99.1vw;
 
     &--title {
       color: black;
@@ -19,17 +22,6 @@
 
   &__intro {
     background-color: $prune;
-    color: white;
-    margin-bottom: 3.125rem;
-
-    h2 {
-      margin-top: 3.75rem;
-      margin-bottom: 1.875rem;
-    }
-
-    p {
-      margin-bottom: 3.75rem;
-    }
   }
 
   &__steps {
@@ -41,12 +33,5 @@
   &__recap {
     background-color: $green;
     color: white;
-    margin-top: 3.125rem;
-    height: 60vh;
-    width: 100vw;
-
-    p {
-      width: 50%;
-    }
   }
 }

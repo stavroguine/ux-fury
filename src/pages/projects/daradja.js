@@ -6,6 +6,8 @@ import Tag from "../../components/tag";
 import Background from "../../components/background";
 import Image from "../../components/image";
 import OtherProject from "../../components/otherProject";
+import Context from "../../components/context";
+
 
 const DaradjaPage = () => (
     <Layout>
@@ -29,56 +31,11 @@ const DaradjaPage = () => (
                 </div>
             </section>
             <section id="daradjaIntro" className="daradja__intro">
-                <div className="container h-100">
-                    <div className="row h-100">
-                        <div className="col-sm-12  pl-0">
-                            <div className="daradja__intro--title">
-                                <h2>Le contexte</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row h-100 ">
-                        <div className="col-sm-12 col-md-4 pl-0">
-                            <h3>Présentation</h3>
-                            <p>
-                                Daradja est une association mettant en
-                                contact des mentors, des salariés, et des
-                                étudiants étrangers. Le but est de permettre à
-                                ces derniers de donner plus de clefs pour
-                                mieux s’insérer professionellement après leurs
-                                études universitaires.
-                            </p>
-                        </div>
-                        <div className="col-sm-12 col-md-4  pl-0">
-                            <h3>Le problème</h3>
-                            <p>
-                                Les mentors et les étudiants se rencontrent trois
-                                fois dans l’année. Sauf que la prise de rendez-
-                                vous des prochains devaient passer par les
-                                salariés de l’association. Ainsi que les
-                                commentaires des rendez-vous que le mentor
-                                devait faire. Cela rajoutait une charge de
-                                travail supplémentaires aux salariés de
-                                l’association, puisque certains mentors ne
-                                trouvaient pas le temps de faire correctement
-                                cette tâche par téléphone. Il fallait penser deux
-                                outils distincts: un pour les mentors - qu’ils
-                                puissent réserver un nouveau rendez-vous et
-                                faire leur commentaire - et un outil web pour
-                                les salariés de l’association afin de faire un
-                                meilleur suivi des tutorats.
-                            </p>
-                        </div>
-                        <div className="col-sm-12 col-md-4  pl-0">
-                            <h3>La résolution</h3>
-                            <p>
-                                Nous avons donc pensé ensemble à un outil
-                                pour l’association et un outil pratique pour les
-                                mentors.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <Context
+                    presentation="Daradja est une association mettant en contact des mentors, des salariés, et des étudiants étrangers. Le but est de permettre à ces derniers de donner plus de clefs pour mieux s’insérer professionellement après leurs études universitaires."
+                    problem="Les mentors et les étudiants se rencontrent trois fois dans l’année. Sauf que la prise de rendez- vous des prochains devaient passer par les salariés de l’association. Ainsi que les commentaires des rendez-vous que le mentor devait faire. Cela rajoutait une charge de travail supplémentaires aux salariés de l’association, puisque certains mentors ne trouvaient pas le temps de faire correctement cette tâche par téléphone. Il fallait penser deux outils distincts: un pour les mentors - qu’ils puissent réserver un nouveau rendez-vous et faire leur commentaire - et un outil web pour les salariés de l’association afin de faire un meilleur suivi des tutorats."
+                    resolution="Nous avons donc pensé ensemble à un outil pour l’association et un outil pratique pour les mentors."
+                />
             </section>
             <section id="daradjaMap" className="daradja__map">
             </section>
