@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import Background from "../components/background"
+import Context from "../components/context";
+import Recap from "../components/recap"
 import SEO from "../components/seo"
 import '../styles/career.scss';
 import photo from "../images/career/2-Photo.png"
@@ -32,51 +33,47 @@ const CareerPage = () => (
                 </div>
             </section>
             <section id="carrerBio" className="career__bio ">
-                <Background>
-                    <div className="col-sm-12 col-md-6  ">
-                        <div className="career__bio--face">
-                            <img src={photo} className="img-fluid content"  />
+                <div className="container h-100">
+                    <div className="row h-100">
+                        <div className="col-sm-12 col-md-6 my-auto  ">
+                            <div className="career__bio--face">
+                                <img src={photo} className="img-fluid content"  />
+                            </div>
+                        </div>
+                        <div className="col-sm-12 col-md-6 pl-5 my-auto">
+                            <div className="career__bio--speech">
+                                <h2>Qui suis-je ?</h2>
+                                <span>Gaëlle</span>
+                                <p>
+                                    Cinéma, mode, vidéos, publicité, monde de la télévision et
+                                    même jeux vidéo: c’est tout ce qui me définit. Mais je cache autre chose sous mon chapeau : de la sociologie, de
+                                    l’anthropologie, une passion inégalée pour l’Histoire, pour
+                                    les mythes (surtout grecques) ainsi que l’analyse de donnée
+                                    et les statistiques. J’aime comprendre pourquoi mais surtout comment on en arrive à une situation donnée.
+                                </p>
+                                <p>
+                                    C’est pourquoi je me suis lancée dans la voie de l’UX
+                                    design et de la compréhension de l’utilisateur. Lui définir un joli environnement, une expérience facile à prendre en main, lui permettre de lui simplifier la vie, tels sont mes
+                                    mojos!
+                                </p>
+                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-6 pl-5">
-                        <div className="career__bio--speech">
-                            <h2>Qui suis-je ?</h2>
-                            <span>Gaëlle</span>
-                            <p>
-                                Cinéma, mode, vidéos, publicité, monde de la télévision et
-                                même jeux vidéo: c’est tout ce qui me définit. Mais je cache autre chose sous mon chapeau : de la sociologie, de
-                                l’anthropologie, une passion inégalée pour l’Histoire, pour
-                                les mythes (surtout grecques) ainsi que l’analyse de donnée
-                                et les statistiques. J’aime comprendre pourquoi mais surtout comment on en arrive à une situation donnée.
-                            </p>
-                            <p>
-                                C’est pourquoi je me suis lancée dans la voie de l’UX
-                                design et de la compréhension de l’utilisateur. Lui définir un joli environnement, une expérience facile à prendre en main, lui permettre de lui simplifier la vie, tels sont mes
-                                mojos!
-                            </p>
-                        </div>
-                    </div>
-                </Background>
-
+                </div>
             </section>
             <section id="journey" className="career__journey">
                 <img src={groupe_404} className="float-right"  />
                 <img src={leaf} className="leaf leaf__right" />
                 <img src={leaf} className="leaf leaf__right" />
-                <img src={leaf} className="leaf leaf__right" />
-                <img src={groupe_402} className="leaf leaf__right"/>
                 <div className="container" >
                     <div className="row">
-
                         <div className="col-sm-12 col-md-12"     >
                             <h2>Mais comment en suis-je arrivée là ?</h2>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-sm-12 col-md-12 ">
-
                             <div className="career__journey--step align-items-center  "  >
-
                                 <img src={plant_one}
                                      data-aos="fade-up"
                                      data-aos-easing="linear"
@@ -143,7 +140,6 @@ const CareerPage = () => (
                                     Grâce à mes stages, j'ai pu voir toute la gestion de projet : l'innovation,
                                     les analyses data, les bugs et l'écriture des tickets.
                                 </p>
-
                             </div>
                         </div>
                     </div>
@@ -170,7 +166,7 @@ const CareerPage = () => (
                 </div>
             </section>
             <section id="careerRecap" className="career__recap">
-                    <Background>
+                    <Recap>
                         <div className="col-sm-12 col-md-12">
                             <div className="career__recap--speech ">
                                 <h2>Où je veux aller</h2>
@@ -186,11 +182,10 @@ const CareerPage = () => (
                                 </p>
                             </div>
                         </div>
-                    </Background>
+                    </Recap>
             </section>
         </main>
     </Layout>
-
 );
 
 export default CareerPage

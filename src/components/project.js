@@ -5,7 +5,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 function Project(props) {
     return (
         <div className="col-sm-12 col-md-6 pl-0">
-            <AniLink cover direction="left" duration={2} to={props.link}>
+            <AniLink cover bg={props.color} direction="left" duration={2} to={props.link}>
                 <div className="projects projects--item border">
                     <div className="black-opacity">
                     </div>

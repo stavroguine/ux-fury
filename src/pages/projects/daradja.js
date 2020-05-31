@@ -3,7 +3,7 @@ import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import '../../styles/projects/daradja.scss';
 import Tag from "../../components/tag";
-import Background from "../../components/background";
+import Recap from "../../components/recap";
 import Image from "../../components/image";
 import OtherProject from "../../components/otherProject";
 import Context from "../../components/context";
@@ -172,7 +172,7 @@ const DaradjaPage = () => (
                 </div>
             </section>
             <section id="daradjaRecap" className="daradja__recap">
-                <Background>
+                <Recap>
                     <div className="col-sm-12 col-md-12">
                         <div className="daradja__recap--speech ">
                             <h2>Ce que j'ai appris</h2>
@@ -182,7 +182,7 @@ const DaradjaPage = () => (
                             </p>
                         </div>
                     </div>
-                </Background>
+                </Recap>
             </section>
             <OtherProject/>
         </main>

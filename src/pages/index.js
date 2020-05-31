@@ -31,7 +31,7 @@ const IndexPage = () => (
                                       <li><a target="_blank" href="https://www.youtube.com/user/GailOnTheMars">Youtube</a></li>
                                   </ul>
                               </div>
-                              <AniLink className="button" paintDrip color="yellow"  to='/career'  >
+                              <AniLink className="button" paintDrip hex="#2F7B27"  to='/career'  >
                                   Découvrir mon parcours
                               </AniLink>
                           </div>
@@ -55,11 +55,15 @@ const IndexPage = () => (
                       </div>
                   </div>
                   <div className="row h-100 mt-5 ">
-                      <Project link="/projects/tdf"
+                      <Project
+                               color="#922E63"
+                               link="/projects/tdf"
                                text="TDF, l'intranet communautaire"
                                alt="Voir la page de TDF"
                                filename="TDF_home.png"/>
-                      <Project link="/projects/ffyn"
+                      <Project
+                               color="#226D84"
+                               link="/projects/ffyn"
                                text="FFYN, le pont entre l'investisseur et l'asset manager"
                                alt="Voir la page de Ffyn"
                                filename="ffyn.png"/>

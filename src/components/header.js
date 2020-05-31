@@ -48,13 +48,13 @@ class Header extends Component {
                 >
                     <div className="row">
                         <div className="col-sm-1">
-                            <AniLink paintDrip color="yellow"  to='/'  >
+                            <AniLink paintDrip hex="#e9d349"  to='/'  >
                                 <img src={logo}  />
                             </AniLink>
                         </div>
                         <div className="col-sm-8 mt-2">
                             <ul className="">
-                                <li><AniLink paintDrip color="yellow"  to='/career'  >Mon parcours</AniLink></li>
+                                <li><AniLink paintDrip hex="#2F7B27"  to='/career'  >Mon parcours</AniLink></li>
                                 <li><AniLink cover direction="bottom" duration={2} to='/projects'>Mes projets</AniLink></li>
                             </ul>
                         </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import logo from "../images/logo.png";
 
 class Footer extends Component {
@@ -19,7 +19,9 @@ class Footer extends Component {
                         <div className="container">
                             <div className="row">
                             <div className="col-sm-6 col-md-1">
-                                <Link to='/'><img src={logo}/></Link>
+                                <AniLink paintDrip hex="#e9d349"  to='/'  >
+                                    <img src={logo}  />
+                                </AniLink>
                             </div>
                                 <div className="col-sm-6 col-md-11 ">
                                         <div  className="float-right" onClick={topFunction} >

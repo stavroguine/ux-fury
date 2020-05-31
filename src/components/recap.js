@@ -1,7 +1,7 @@
 import React from "react"
 import groupe_402 from "../images/Groupe_402.png";
 
-const Background = props  => (
+const Recap = props  => (
     <div className="recap">
         <div className="container h-100 ">
             <div className="row h-100 align-items-center">
@@ -13,4 +13,4 @@ const Background = props  => (
 );
 
 
-export default Background
+export default Recap

@@ -1,13 +1,14 @@
 import React from "react"
 import branche from "../images/branche.png";
 import leaf from "../images/leaf.svg";
+import leaf_white from "../images/leaf_white.svg";
 
 
 function Context(props) {
     return (
             <div className="context">
                 <img src={branche} className="branch" />
-                <img src={leaf} className="leaf leaf__left" />
+                <img src={leaf_white} className="leaf leaf__left" />
                 <div className="container h-100">
                     <div className="row">
                         <div className="col-sm-12  pl-0">

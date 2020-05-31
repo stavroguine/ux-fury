@@ -3,7 +3,7 @@ import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import '../../styles/projects/tdf.scss';
 import Tag from "../../components/tag";
-import Background from "../../components/background";
+import Recap from "../../components/recap";
 import Image from "../../components/image";
 import OtherProject from "../../components/otherProject";
 import Context from "../../components/context";
@@ -101,7 +101,7 @@ const TdfPage = () => (
                 </div>
             </section>
             <section id="tdfRecap" className="tdf__recap">
-                <Background>
+                <Recap>
                     <div className="col-sm-12 col-md-12">
                         <div className="tdf__recap--speech ">
                             <h2>Ce que j'ai appris</h2>
@@ -112,7 +112,7 @@ const TdfPage = () => (
                             </p>
                         </div>
                     </div>
-                </Background>
+                </Recap>
             </section>
             <OtherProject/>
         </main>
