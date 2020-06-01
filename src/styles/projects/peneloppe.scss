@@ -32,11 +32,34 @@
   &__intro {
     background-color: $prune;
 
+    .leaf__left {
+      top: 9%;
+    }
+
   }
 
   &__steps {
     h3 {
       margin-bottom: 3.125rem;
+    }
+
+    img:nth-child(2) {
+      top: 50%;
+      transform: scaleX(-1) rotate(180deg);
+    }
+
+    img:nth-child(3) {
+      top: 70%;
+      transform: rotate(180deg);
+    }
+
+    img:nth-child(4) {
+      top: 32%;
+      transform: scaleX(-1) rotate(180deg);
+    }
+
+    img:nth-child(5) {
+      top: 72%;
     }
 
     ul,li {

@@ -19,7 +19,7 @@ class Footer extends Component {
                         <div className="container">
                             <div className="row">
                             <div className="col-sm-6 col-md-1">
-                                <AniLink paintDrip hex="#e9d349"  to='/'  >
+                                <AniLink paintDrip hex="#E9B642"  to='/'  >
                                     <img src={logo}  />
                                 </AniLink>
                             </div>

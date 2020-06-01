@@ -48,7 +48,7 @@ class Header extends Component {
                 >
                     <div className="row">
                         <div className="col-sm-1">
-                            <AniLink paintDrip hex="#e9d349"  to='/'  >
+                            <AniLink paintDrip hex="#E9B642"  to='/'  >
                                 <img src={logo}  />
                             </AniLink>
                         </div>

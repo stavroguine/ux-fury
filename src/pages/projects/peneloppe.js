@@ -8,10 +8,8 @@ import Recap from "../../components/recap";
 import Image from "../../components/image";
 import OtherProject from "../../components/otherProject";
 import Context from "../../components/context";
-import leaf from "../../images/leaf.svg";
-import groupe_404 from "../../images/Groupe_404.png";
-import groupe_402 from "../../images/Groupe_402.png";
-import branche from "../../images/branche.png";
+import LeafCascade from "../../components/leafCascade";
+import blue from "../../images/Leaf blue shadow.png";
 
 const peneloppePage = () => (
     <Layout>
@@ -46,6 +44,7 @@ const peneloppePage = () => (
                 />
             </section>
             <section id="peneloppeSteps" className="peneloppe__steps">
+                <LeafCascade/>
                 <div className="container">
                     <div className="row h-100">
                         <div className="col-sm-12  pl-0">
@@ -250,6 +249,7 @@ const peneloppePage = () => (
                             </p>
                         </div>
                     </div>
+                    <img src={blue} className="leaf leaf__right" />
                 </Recap>
             </section>
             <OtherProject/>

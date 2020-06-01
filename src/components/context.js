@@ -1,6 +1,5 @@
 import React from "react"
 import branche from "../images/branche.png";
-import leaf from "../images/leaf.svg";
 import leaf_white from "../images/leaf_white.svg";
 
 
@@ -36,8 +35,8 @@ function Context(props) {
                                 {props.resolution}
                             </p>
                         </div>
+                        <img src={leaf_white} className="leaf leaf__right" />
                     </div>
-                    <img src={leaf} className="leaf leaf__right" />
                 </div>
             </div>
     );

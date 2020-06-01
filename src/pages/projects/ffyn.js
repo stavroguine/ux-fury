@@ -7,6 +7,8 @@ import Recap from "../../components/recap";
 import Image from "../../components/image";
 import OtherProject from "../../components/otherProject";
 import Context from "../../components/context";
+import LeafCascade from "../../components/leafCascade";
+import purple from "../../images/Leaf_purple_shadow.png";
 
 
 const FfynPage = () => (
@@ -39,6 +41,7 @@ const FfynPage = () => (
                 />
             </section>
             <section className="ffynSteps" className="ffyn__steps">
+                <LeafCascade/>
                 <div className="container">
                     <div className="row h-100">
                         <div className="col-sm-12 pl-0">
@@ -202,6 +205,7 @@ const FfynPage = () => (
                             </p>
                         </div>
                     </div>
+                    <img src={purple} className="leaf leaf__right" />
                 </Recap>
             </section>
             <OtherProject/>

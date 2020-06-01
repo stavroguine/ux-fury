@@ -47,7 +47,7 @@ const ProjectsPage = () => (
                         <Project
                                 color="#922E63"
                                 link="/projects/peneloppe"
-                                text="La fabuleuse ballade de Pénéloppe, une visite immersive du Théâtre des Champs Elysées"
+                                text="La fabuleuse balade de Pénéloppe, une visite immersive du Théâtre des Champs Elysées"
                                 alt="Voir la page de Pénéloppe"
                                 filename="projects/5-Peneloppe - fhd.png"/>
                     </div>

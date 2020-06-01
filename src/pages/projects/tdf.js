@@ -7,6 +7,9 @@ import Recap from "../../components/recap";
 import Image from "../../components/image";
 import OtherProject from "../../components/otherProject";
 import Context from "../../components/context";
+import green from "../../images/Leaf_green_shadow.png";
+
+import LeafCascade from "../../components/leafCascade";
 
 const TdfPage = () => (
     <Layout>
@@ -37,6 +40,7 @@ const TdfPage = () => (
                 />
             </section>
             <section id="tdfSteps" className="tdf__steps">
+                <LeafCascade/>
                 <div className="container">
                     <div className="row h-100">
                         <div className="sol-sm-12">
@@ -101,7 +105,7 @@ const TdfPage = () => (
                 </div>
             </section>
             <section id="tdfRecap" className="tdf__recap">
-                <Recap>
+                <Recap color="green">
                     <div className="col-sm-12 col-md-12">
                         <div className="tdf__recap--speech ">
                             <h2>Ce que j'ai appris</h2>
@@ -112,6 +116,7 @@ const TdfPage = () => (
                             </p>
                         </div>
                     </div>
+                    <img src={green} className="leaf leaf__right" />
                 </Recap>
             </section>
             <OtherProject/>

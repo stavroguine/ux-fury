@@ -166,7 +166,6 @@ header {
 
     &__left {
       left: 7%;
-      top: 9%;
       transform: rotate(180deg);
     }
 
@@ -178,14 +177,57 @@ header {
 
 #otherProject {
   background-color: $white-back;
+
   img {
     height: 9.375rem !important;
+    margin-left: 1.5625rem;
+    margin-top: 1.5625rem;
+
     width: 9.375rem !important;
+
+  }
+
+  .other-project {
+    transition: .5s ease;
+
+    &:hover {
+
+      img {
+        transform: scale(1.2);
+
+      }
+      span {
+        opacity: 1;
+      }
+    }
+
+  }
+
+  span {
+    background-color: $prune;
+    color: white !important;
+    left: 52%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    opacity: 0;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease;
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 63%;
+    z-index: 3;
+
+    &.span-tdf {
+      left: 41%;
+    }
   }
 }
 
 .projects {
   transition: .5s ease;
+
   img {
     height: 100%;
     position: absolute;

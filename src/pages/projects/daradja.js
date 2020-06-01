@@ -7,6 +7,8 @@ import Recap from "../../components/recap";
 import Image from "../../components/image";
 import OtherProject from "../../components/otherProject";
 import Context from "../../components/context";
+import LeafCascade from "../../components/leafCascade";
+import blue from "../../images/Leaf blue shadow.png";
 
 
 const DaradjaPage = () => (
@@ -40,6 +42,7 @@ const DaradjaPage = () => (
             <section id="daradjaMap" className="daradja__map">
             </section>
             <section id="daradjaSteps" className="daradja__steps">
+                <LeafCascade/>
                 <div className="container">
                     <div className="row h-100">
                         <div className="col-sm-12  pl-0">
@@ -182,6 +185,7 @@ const DaradjaPage = () => (
                             </p>
                         </div>
                     </div>
+                    <img src={blue} className="leaf leaf__right" />
                 </Recap>
             </section>
             <OtherProject/>

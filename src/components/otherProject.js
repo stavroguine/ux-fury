@@ -13,24 +13,36 @@ function OtherProject() {
                 </div>
                 <div className="row h-100 mt-5">
                         <div className="col-sm-12 col-md-3 ">
-                            <AniLink bg="#922E63" cover direction="bottom"  duration={2} to='/projects/tdf'>
-                                <Image alt="TDF" filename="Pastille_TDF.png" />
-                            </AniLink>
+                            <div className="other-project">
+                                <AniLink bg="#922E63" cover direction="bottom"  duration={2} to='/projects/tdf'>
+                                    <span className="span-tdf">TDF</span>
+                                    <Image alt="TDF" filename="Pastille_TDF.png" />
+                                </AniLink>
+                            </div>
                         </div>
                         <div className="col-sm-12 col-md-3 pl-5">
-                            <AniLink bg="#226D84" cover direction="bottom"  duration={2} to='/projects/ffyn'>
-                                <Image alt="FFYN" filename="Pastille_FFYN.png" />
-                            </AniLink>
+                            <div className="other-project">
+                                <AniLink bg="#226D84" cover direction="bottom"  duration={2} to='/projects/ffyn'>
+                                    <span className="span-ffyn">FFYN</span>
+                                    <Image alt="FFYN" filename="Pastille_FFYN.png" />
+                                </AniLink>
+                            </div>
                         </div>
                         <div className="col-sm-12 col-md-3 pl-5">
-                            <AniLink bg="#2F7B27" cover direction="bottom"  duration={2} to='/projects/daradja'>
-                                <Image alt="Daradja" filename="Pastille_Daradja.png" />
-                            </AniLink>
+                            <div className="other-project">
+                                <AniLink bg="#2F7B27" cover direction="bottom"  duration={2} to='/projects/daradja'>
+                                    <span className="span-daradja">Daradja</span>
+                                    <Image alt="Daradja" filename="Pastille_Daradja.png" />
+                                </AniLink>
+                            </div>
                         </div>
                         <div className="col-sm-12 col-md-3 pl-5">
-                            <AniLink bg="#922E63" cover direction="bottom"  duration={2} to='/projects/peneloppe'>
-                                <Image alt="Peneloppe" filename="Pastille_Peneloppe.png" />
-                            </AniLink>
+                            <div className="other-project">
+                                <AniLink bg="#922E63" cover direction="bottom"  duration={2} to='/projects/peneloppe'>
+                                    <span className="span-peneloppe">Peneloppe</span>
+                                    <Image alt="Peneloppe" filename="Pastille_Peneloppe.png" />
+                                </AniLink>
+                            </div>
                         </div>
                     </div>
                 </div>
