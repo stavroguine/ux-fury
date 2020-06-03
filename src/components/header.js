@@ -55,14 +55,14 @@ class Header extends Component {
                         <div className="col-sm-8 mt-2">
                             <ul className="">
                                 <li><AniLink paintDrip hex="#2F7B27"  to='/career'  >Mon parcours</AniLink></li>
-                                <li><AniLink cover direction="bottom" duration={2} to='/projects'>Mes projets</AniLink></li>
+                                <li><AniLink cover bg="#922E63" direction="bottom" duration={2} to='/projects'>Mes projets</AniLink></li>
                             </ul>
                         </div>
                         <div className="col-sm-3 mt-2">
                             <div className="header__social">
                                 <a target="_blank" href="mailto:gaelle.j.molina@gmail.com"><i className="icon-mail"></i></a>
                                 <a target="_blank" href="https://www.linkedin.com/in/ga%C3%ABlle-molina-63a04b129"><i className="icon-linkedin-squared"></i></a>
-                                <a target="_blank" href="https://www.instagram.com/gailartdesign/"><i className="icon-instagram"></i></a>
+                                <a target="_blank" href="https://www.behance.net/gaellem1"><i className="icon-behance" /></a>
                                 <a target="_blank" href="https://www.youtube.com/user/GailOnTheMars"><i className="icon-youtube"></i></a>
                             </div>
                         </div>

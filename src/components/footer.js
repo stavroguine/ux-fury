@@ -18,7 +18,7 @@ class Footer extends Component {
                 <div className="footer">
                         <div className="container">
                             <div className="row">
-                            <div className="col-sm-6 col-md-1">
+                            <div className="col-sm-6 col-md-1 pl-0">
                                 <AniLink paintDrip hex="#E9B642"  to='/'  >
                                     <img src={logo}  />
                                 </AniLink>
@@ -29,7 +29,6 @@ class Footer extends Component {
                                                 <div className="arrow-up icon "></div>
                                             </div>
                                         </div>
-
                                 </div>
                             </div>
                     </div>

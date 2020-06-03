@@ -27,7 +27,7 @@ const IndexPage = () => (
                                   <ul>
                                       <li ><a target="_blank" href="mailto:gaelle.j.molina@gmail.com">Mail</a></li>
                                       <li><a target="_blank" href="https://www.linkedin.com/in/ga%C3%ABlle-molina-63a04b129">Linkedin</a></li>
-                                      <li><a target="_blank" href="https://www.instagram.com/gailartdesign/">Instagram</a></li>
+                                      <li><a target="_blank" href="https://www.behance.net/gaellem1">Behance</a></li>
                                       <li><a target="_blank" href="https://www.youtube.com/user/GailOnTheMars">Youtube</a></li>
                                   </ul>
                               </div>
@@ -69,7 +69,7 @@ const IndexPage = () => (
                                filename="ffyn.png"/>
                   </div>
                   <div className="row mt-5 mb-5">
-                      <AniLink className="button" cover direction="bottom" duration={2} to='/projects'>
+                      <AniLink className="button" cover bg="#922E63" direction="bottom" duration={2} to='/projects'>
                           Voir tous mes projets
                       </AniLink>
                   </div>

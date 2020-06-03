@@ -133,9 +133,16 @@ header {
     i {
       padding-right: 1.25rem;
     }
+
+    .icon-behance::before {
+      content: url("../images/behance.svg");
+      position: relative;
+      top: 4%;
+    }
+
     .icon-youtube::before {
       position: absolute;
-      top: -5%;
+      top: 4%;
     }
   }
 }

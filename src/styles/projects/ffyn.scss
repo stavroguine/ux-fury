@@ -44,22 +44,22 @@
       margin-bottom: 3.125rem;
     }
 
-    img:nth-child(2) {
+    .leaf:nth-child(2) {
       top: 50%;
       transform: scaleX(-1) rotate(180deg);
     }
 
-    img:nth-child(3) {
+    .leaf:nth-child(3) {
       top: 70%;
       transform: rotate(180deg);
     }
 
-    img:nth-child(4) {
+    .leaf:nth-child(4) {
       top: 32%;
       transform: scaleX(-1) rotate(180deg);
     }
 
-    img:nth-child(5) {
+    .leaf:nth-child(5) {
       top: 72%;
     }
 

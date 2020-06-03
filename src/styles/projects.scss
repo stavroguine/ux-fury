@@ -4,7 +4,7 @@
 
 .projects {
   &__splash {
-    background-image: url("../images/projects/1-gratisography.png");
+    background-image: url("../images/projects/Banniere-mes-projets.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 54vh;
@@ -16,6 +16,9 @@
   }
 
   &__overview {
+    background-image: url("../images/projects/background-mes-projets.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     img {
       height: 100%;
       position: absolute;

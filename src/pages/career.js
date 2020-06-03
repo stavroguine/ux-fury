@@ -1,18 +1,17 @@
 import React from "react"
 import Layout from "../components/layout"
-import Context from "../components/context";
 import Recap from "../components/recap"
 import SEO from "../components/seo"
 import '../styles/career.scss';
 import photo from "../images/career/2-Photo.png"
 import leaf from "../images/leaf.svg";
 import groupe_404 from "../images/Groupe_404.png";
-import groupe_402 from "../images/Groupe_402.png";
 import plant_one from '../images/career/3-Plant_one.png';
 import plant_two from '../images/career/4-Plant_two.png';
 import plant_leaf from '../images/career/5-Plant_leaf.png';
 import plant_bulbs from '../images/career/6-Plant_bulbs.png';
 import plant_flowers from '../images/career/7-Plant_flowers.png';
+import blue from "../images/Leaf blue shadow.png";
 
 
 const CareerPage = () => (
@@ -182,6 +181,7 @@ const CareerPage = () => (
                                 </p>
                             </div>
                         </div>
+                        <img src={blue} className="leaf leaf__right" />
                     </Recap>
             </section>
         </main>

@@ -81,7 +81,7 @@ const DaradjaPage = () => (
                             <div className="col-sm-12 col-md-4">
                                 <Image alt="Schema mentors" filename="3-Daradja - Schéma BPMN MENTORS - FHD.png"  />
                             </div>
-                            <div className="col-sm-12 col-md-8 pl-5">
+                            <div className="col-sm-12 col-md-8 pl-5 my-auto">
                                 <p>
                                     Pour mieux comprendre le déroulement du mentorat dans l’association,
                                     nous avons fait un brainstorming sur les mentors, pour avoir le plus
