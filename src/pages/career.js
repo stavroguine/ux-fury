@@ -149,7 +149,7 @@ const CareerPage = () => (
                                 <h3>Acte V</h3>
                                 <h4>Eureka !</h4>
                                 <span>
-                                    Ma problématique était de trouver un métier qui me permettait d'utiliser
+                                    Ma problématique était de trouver un métier qui me permettrait d'utiliser
                                     toutes ces connaissances, dans le web, et d'inclure de la création en plus.
                                 </span>
                                 <p>
@@ -165,7 +165,7 @@ const CareerPage = () => (
                     <Recap>
                         <div className="col-sm-12 col-md-12">
                             <div className="career__recap--speech ">
-                                <h2>Quelles sont les missions qui m'interesseraient ?</h2>
+                                <h2>Quelles sont les missions qui m'intéresseraient ?</h2>
                                 <p>
                                     Comme vous avez pu le lire plus haut, les missions qui m'intéresseraient 
                                     sont des missions qui incluent de l'analyse de données, des enquêtes sur les utilisateurs, de la création et 

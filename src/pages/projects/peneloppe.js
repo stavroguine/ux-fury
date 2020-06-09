@@ -39,7 +39,7 @@ const peneloppePage = () => (
                             et classé monument historique, veut apporter un souffle nouveau dans son histoire.
                             Ils décident de faire un partenariat avec deux écoles:
                             une spécialisée dans le design et une autre spécialisée dans le management de projet culturel."
-                    problem="Le Théâtre des Champs-Elysées perd en nouveauté et en innovation. Cela se ressent dans leur public, qui peine à se renouveller : une programmation qui ne        parle qu’aux plus expérimentés, un côté innacessible auprès des jeunes générations."
+                    problem="Le Théâtre des Champs-Elysées perd en nouveauté et en innovation. Cela se ressent dans leur public, qui peine à se renouveller : une programmation qui ne        parle qu’aux plus expérimentés, un côté inacessible auprès des jeunes générations."
                     resolution="Nous avons proposé une balade intéractive au sein du Théâtre : pour découvrir l’histoire du lieu, introduire le nouveau public à la musique classique.        Notre concept est d’allier les nouvelles technologies au monde du classique, pour dépoussiérer l’image de cet art, qui est loin d’être “classique”."
                 />
             </section>
