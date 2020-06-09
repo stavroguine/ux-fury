@@ -20,7 +20,7 @@
   a.button:hover {
     background-color: $green !important;
     color: $white-back;
-    font-size: 21px;
+    font-size: 1.4rem;
   }
 
   h2 {
@@ -48,7 +48,7 @@
 
     :hover {
       color: $green;
-      font-size: 21px;
+      font-size: 1.4rem;
     }
   }
 
@@ -97,22 +97,19 @@
 
     &--content {
       display: inline-block;
-      padding-top: 64%;
+      margin-top: -5.7rem;
       position: relative;
       width: 100%;
       z-index: 3;
       .button {
-        left: 14%;
+        left: 12%;
       }
 
-      @media screen and (min-width: 1920px) {
-        padding-top: 75%;
-      }
     }
 
     &--title {
       display: inline-block;
-      max-width: 87%;
+      max-width: 29rem;
       width: inherit;
       img {
         display: inline;

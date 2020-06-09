@@ -14,7 +14,7 @@ const IndexPage = () => (
           <section id="splashScreen" className="home__splash">
               <div className="container h-100">
                   <div className="row h-100">
-                      <div className="col-sm-6">
+                      <div className="col-sm-7 pl-0 my-auto">
                           <div className="home__splash--content">
                               <div className="home__splash--title">
                                   <img src={quote} />
@@ -36,8 +36,8 @@ const IndexPage = () => (
                               </AniLink>
                           </div>
                       </div>
-                      <div className="col-sm-6  ">
-                          <img src={wonder_woman}  className="home__ww"
+                      <div className="col-sm-5 pl-0 my-auto">
+                          <img src={wonder_woman} alt="ww"  className="home__ww"
                                data-aos="fade"
                                data-aos-easing="linear"
                                data-aos-duration="1000"/>
