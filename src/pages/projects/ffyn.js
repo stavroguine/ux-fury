@@ -35,8 +35,8 @@ const FfynPage = () => (
             </section>
             <section id="ffynIntro" className="ffyn__intro">
                 <Context
-                    presentation="Les asset managers, ceux qui vendent les fonds, et les investisseurs, ceux qui achètent les fonds, sont souvent en contact. Le moyen le plus simple de communiquer est le mail. Ce moyen trouve vite ses limites."
-                    problem="Les informations envoyées par mail sont nombreuses : certaines sont valables, quand d’autres ne sont plus d’actualités. Cependant la messagerie est aussi utilisée quotidiennement par ces deux professions. L’information est noyée parmi la quantité de mail. Il fallait trouver un moyen de séparer les informations quotidiennes et les informations sur les fonds."
+                    presentation="Les asset managers, ceux qui vendent les fonds, et les investisseurs, ceux qui achètent les fonds, sont souvent en contact, par mail."
+                    problem="Les informations envoyées par mail sont nombreuses : certaines sont valables, quand d’autres ne sont plus d’actualités. L’information est noyée parmi la quantité de mail. Il fallait trouver un moyen de séparer les informations quotidiennes et les informations sur les fonds."
                     resolution="FFYN répond à cette problématique en lançant un outil qui va permettre de centraliser toutes les informations sur les fonds."
                 />
             </section>
@@ -67,7 +67,7 @@ const FfynPage = () => (
                             <div className="col-sm-12 col-md-6">
                                 <h4>Notre réponse</h4>
                                 <p>
-                                    Les digest emails sont des emails qui notifient l’utilisateur de l’activité de son groupe sur la plateforme. Avec le lead UX, nous avons identifié le moment le plus propice pour envoyer les digest emails. Ensuite, avec l’architecte, nous avons convenu d’envoyer les digest tous les lundi matin, s’il y a eu de l’activité dans la semaine.  Nous avons ensuite fait les mock up et le design.
+                                    Les digest emails sont des emails qui notifient l’utilisateur de l’activité de son groupe sur la plateforme. Avec le lead UX, nous avons identifié le moment le plus propice pour envoyer les digest emails. Ensuite, avec l’architecte, nous avons convenu d’envoyer les digest tous les lundis matins, s’il y a eu de l’activité dans la semaine.  Nous avons ensuite fait les mock up et le design.
                                 </p>
                                 <p>
                                     <span className="highlight">Les outils utilisés : tri de carte, Wireframing, Sketch, design system</span>
@@ -144,7 +144,7 @@ const FfynPage = () => (
                             <div className="col-sm-12 col-md-6 pl-0">
                                 <h4>La découverte du problème</h4>
                                 <p>
-                                    Durant la saison estivale, beaucoup de nos utilisateurs sont en vacances. Ils configurent un mail automatique, qui s’envoit automatiquement après réception d’un nouveau message. Sur FFYN, lorsqu’un utilisateur publiait un post, et si son destinataire était en vacances, il recevait dans la réponse de son post le mail de l’out-of-office. Pour l’utilisateur FFYN, son seul moyen de renvoyer son message à un autre destinaire était de :
+                                    Durant la saison estivale, beaucoup de nos utilisateurs sont en vacances. Ils configurent un mail automatique, qui s’envoit automatiquement après réception d’un nouveau message. Sur FFYN, lorsqu’un utilisateur publiait un post, et si son destinataire était en vacance, il recevait dans la réponse de son post le mail de l’out-of-office. Pour l’utilisateur FFYN, son seul moyen de renvoyer son message à un autre destinaire était de :
 
                                 </p>
                                 <ul>
@@ -198,9 +198,9 @@ const FfynPage = () => (
                 <Recap>
                     <div className="col-sm-12 col-md-12">
                         <div className="ffyn__recap--speech ">
-                            <h2>Ce que j'ai appris</h2>
+                            <h2>Au final</h2>
                             <p>
-                                Ce stage m'a permis de familiariser avec la méthodologie SCRUM et la méthodologie UX, et de mieux appréhender le côté produit. Aussi, j'ai pu créer de nouvelles
+                                Ce stage m'a permis de me familiariser avec la méthodologie SCRUM et la méthodologie UX, et de mieux appréhender le côté produit. Aussi, j'ai pu créer de nouvelles
                                 expériences utilisateurs.
                             </p>
                         </div>

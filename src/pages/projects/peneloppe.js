@@ -40,7 +40,7 @@ const peneloppePage = () => (
                             Ils décident de faire un partenariat avec deux écoles:
                             une spécialisée dans le design et une autre spécialisée dans le management de projet culturel."
                     problem="Le Théâtre des Champs-Elysées perd en nouveauté et en innovation. Cela se ressent dans leur public, qui peine à se renouveller : une programmation qui ne        parle qu’aux plus expérimentés, un côté innacessible auprès des jeunes générations."
-                    resolution="Nous avons proposé une balade intéractive au sein du Théâtre : pour découvrir l’histoire du lieu, introduire le nouveau public à la musique classique.        Notre concept a été d’allier les nouvelles technologies au monde du classique, pour dépoussiérer l’image de cet art, qui est loin d’être “classique”."
+                    resolution="Nous avons proposé une balade intéractive au sein du Théâtre : pour découvrir l’histoire du lieu, introduire le nouveau public à la musique classique.        Notre concept est d’allier les nouvelles technologies au monde du classique, pour dépoussiérer l’image de cet art, qui est loin d’être “classique”."
                 />
             </section>
             <section id="peneloppeSteps" className="peneloppe__steps">
@@ -79,7 +79,7 @@ const peneloppePage = () => (
                         <div className="row h-100">
                             <div className="col-sm-12 col-md-6 pl-0 my-auto">
                                 <p>
-                                    Les résultats de notre enquête ont été que les jeunes ne connaissaient que très peu le Théâtre des Champs-Elysées, avec un public plutôt fermé , et qui n’était pas accessible. L’histoire du Théâtre étant riche en scandales, nous avons voulu joué sur cette facette. C’est pourquoi, nous avons pensé à un parcours dans le Théâtre, qui raconte l’histoire de ce monument. A travers une tablette, le spectateur revit les évènements passés.
+                                    Les jeunes connaissent très peu le Théâtre des Champs-Elysées. Le Théâtre a une image d'un public plutôt fermé , pas accessible. L’histoire du Théâtre étant riche en scandales, nous avons voulu joué sur cette facette. C’est pourquoi, nous avons pensé à un parcours dans le Théâtre, qui raconte l’histoire de ce monument. A travers une tablette, le spectateur revit les évènements passés.
                                 </p>
                             </div>
                             <div className="col-sm-12 col-md-6 pl-5">
@@ -172,8 +172,8 @@ const peneloppePage = () => (
                         <div className="row h-100 ">
                             <div className="col-sm-12 col-md-4 pl-0 mt-5">
                                 <p>
-                                    La première partie de l’histoire du TCE, de
-                                    1913 à 1945, qui est symbolisé par le parcours
+                                    La première partie de l’histoire du Théâtre des Champs-Elysées, de
+                                    1913 à 1945, qui est symbolisée par le parcours
                                     Liberté, a été caractérisée par leur liberté de
                                     programmation, qui était jugée provocante
                                     pour l’époque, comme avec Le Sacre de
@@ -239,12 +239,12 @@ const peneloppePage = () => (
                 <Recap>
                     <div className="col-sm-12 col-md-12">
                         <div className="peneloppe__recap--speech ">
-                            <h2>Ce que j'ai appris</h2>
+                            <h2>Au final</h2>
                             <p>
                                 Cette collaboration entre mon université et le Théâtre des Champs-Elysées
                                 m'a permise de voir le monde du jeux vidéo ludique. Avec mon groupe,
                                 nous avons été dans une démarche de développement de jeux vidéos, qui
-                                pourrait être un attrait auprès des jeunes générations, en déringardisant le
+                                pourrait être un atout auprès des jeunes générations, en déringardisant le
                                 milieu de la musique classique.
                             </p>
                         </div>

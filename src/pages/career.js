@@ -44,17 +44,14 @@ const CareerPage = () => (
                                 <h2>Qui suis-je ?</h2>
                                 <span>Gaëlle</span>
                                 <p>
-                                    Cinéma, mode, vidéos, publicité, monde de la télévision et
-                                    même jeux vidéo: c’est tout ce qui me définit. Mais je cache autre chose sous mon chapeau : de la sociologie, de
-                                    l’anthropologie, une passion inégalée pour l’Histoire, pour
-                                    les mythes (surtout grecques) ainsi que l’analyse de donnée
-                                    et les statistiques. J’aime comprendre pourquoi mais surtout comment on en arrive à une situation donnée.
+                                    Du cinéma, de la télévision, un brin de retro-gaming : ce sont dans ces univers que 
+                                    j'ai grandi.
+                                    Mes univers de formation sont aussi divers : la sociologie m'a donné le goût de la statistique
+                                    et des entretiens, mes études dans le web, le goût de la gestion de projet et de l'innovation.
+                                    Mon but en tant qu'UX Designeuse est simple : concevoir des parcours utilisateurs simples et des fonctionnalités innovantes.
+                                                                        
                                 </p>
-                                <p>
-                                    C’est pourquoi je me suis lancée dans la voie de l’UX
-                                    design et de la compréhension de l’utilisateur. Lui définir un joli environnement, une expérience facile à prendre en main, lui permettre de lui simplifier la vie, tels sont mes
-                                    mojos!
-                                </p>
+                               
                              </div>
                         </div>
                     </div>
@@ -77,11 +74,11 @@ const CareerPage = () => (
                                      data-aos="fade-up"
                                      data-aos-easing="linear"
                                      data-aos-duration="3000"/>
-                                <h3>Acte 1</h3>
+                                <h3>Acte I</h3>
                                 <h4> Le cinéma</h4>
-                                <span> Le cinéma : ce 7ème art, nouveaux, toujours à la pointe de la perfection.</span>
+                                <span> Le cinéma : ce 7ème art, nouveau, toujours à la pointe de la perfection.</span>
                                 <p>
-                                    J'ai eu la chance de pouvoir comprendre comment on réalisait un film : les story-boards, les scénarios.
+                                    J'ai eu la chance de pouvoir comprendre comment on réalisait un film : les story-boards, les scénarii.
                                     Et j'ai pu faire mes premiers pas dans le montage.
                                 </p>
                             </div>
@@ -100,7 +97,7 @@ const CareerPage = () => (
                                    <span>Quoi de mieux que les sciences molles pour comprendre notre évolution ?</span>
                                 <p>
                                     Grâce à ces sciences, j'ai acquis la méthodologie d'enquête, qui est très bien pour
-                                    mener des tests utilisateurs, mais aussi pour analyser les données utilisateurs.
+                                    mener des tests utilisateurs ainsi qu'analyser les données utilisateurs.
                                 </p>
                             </div>
                         </div>
@@ -118,7 +115,7 @@ const CareerPage = () => (
                                     <span>Le numérique signifie pour moi l'innovation. </span>
                                 <p>
                                     Dans le web, nos habitudes ont évolué en
-                                    peu du temps. Grâce à de nouvelles fonctionnalités, de nouvelles applications.
+                                    peu de temps. Grâce aux nouvelles fonctionnalités, aux nouvelles applications.
                                     Inventer, innover, améliorer, ce sont les raisons pour lesquelles je voulais me
                                     spécialiser dans le web.
                                 </p>
@@ -157,7 +154,7 @@ const CareerPage = () => (
                                 </span>
                                 <p>
                                     C'est comme ça que j'ai croisé la voie de l'UX Design. Ce métier inclut tout ce que j'ai pu voir.
-                                    J'ai donc pris les devants pour avoir toutes les chances de mon côté.
+                                    
                                 </p>
                             </div>
                         </div>
@@ -168,16 +165,12 @@ const CareerPage = () => (
                     <Recap>
                         <div className="col-sm-12 col-md-12">
                             <div className="career__recap--speech ">
-                                <h2>Où je veux aller</h2>
+                                <h2>Quelles sont les missions qui m'interesseraient ?</h2>
                                 <p>
-                                    Dans ce métier, j’en apprends tous les jours. Chaque jour, je progresse,
-                                    j’apprends, je mets en pratique. Côté UX, j’ai pu montrer mes preuves,
-                                    côté UI, je me perfectionne. Ce que je recherche est une mission qui allie
-                                    parfaitement l’expérience utilisateurs et la recherche utilisateurs : définir
-                                    des KPI, construire des fonctionnalités, mener des tests utilisateurs,
-                                    construire et mener des enquêtes qualitatives et quantitatives, améliorer
-                                    une plateforme, telles sont les voies dans lesquelles je me sentirai
-                                    complète.
+                                    Comme vous avez pu le lire plus haut, les missions qui m'intéresseraient 
+                                    sont des missions qui incluent de l'analyse de données, des enquêtes sur les utilisateurs, de la création et 
+                                    de l'innovation.
+                                    Je peux aussi faire de la refonte de site, voir créer un concept et un site à partir d'une page blanche.
                                 </p>
                             </div>
                         </div>

@@ -34,8 +34,8 @@ const DaradjaPage = () => (
             </section>
             <section id="daradjaIntro" className="daradja__intro">
                 <Context
-                    presentation="Daradja est une association mettant en contact des mentors, des salariés, et des étudiants étrangers. Le but est de permettre à ces derniers de donner plus de clefs pour mieux s’insérer professionellement après leurs études universitaires."
-                    problem="Les mentors et les étudiants se rencontrent trois fois dans l’année. Sauf que la prise de rendez- vous des prochains devaient passer par les salariés de l’association. Ainsi que les commentaires des rendez-vous que le mentor devait faire. Cela rajoutait une charge de travail supplémentaires aux salariés de l’association, puisque certains mentors ne trouvaient pas le temps de faire correctement cette tâche par téléphone. Il fallait penser deux outils distincts: un pour les mentors - qu’ils puissent réserver un nouveau rendez-vous et faire leur commentaire - et un outil web pour les salariés de l’association afin de faire un meilleur suivi des tutorats."
+                    presentation="Daradja est une association mettant en contact des mentors, des salariés, et des étudiants étrangers. Le but est de les aider à mieux s’insérer dans le monde professionel après leurs études."
+                    problem="Les mentors et les étudiants se rencontrent trois fois dans l’année. Pour poser un rendez-vous, les mentors passent par les salariés de l’association. Cette étape est cruciale puisque, pour poser les rendez-vous, les mentors doivent commenter leur dernier rendez-vous. Ce qui est problématique pour la fluidité du processus du mentorat. "
                     resolution="Nous avons donc pensé ensemble à un outil pour l’association et un outil pratique pour les mentors."
                 />
             </section>
@@ -62,8 +62,8 @@ const DaradjaPage = () => (
                                 <p>
                                     Nous sommes d’abord passés par une phase de compréhension du
                                     besoin de notre client. Nous avons d’abord défini le système du
-                                    mentorat. Puis nous avons constitué une expérience map des deux
-                                    publics visés : les mentors et les membre du personnel de l’association.
+                                    mentorat. Puis nous avons construit une expérience map des deux
+                                    cibles visés : les mentors et les membres du personnel de l’association.
                                 </p>
                             </div>
                             <div className="col-sm-12 col-md-4 pl-5">
@@ -84,16 +84,15 @@ const DaradjaPage = () => (
                             <div className="col-sm-12 col-md-8 pl-5 my-auto">
                                 <p>
                                     Pour mieux comprendre le déroulement du mentorat dans l’association,
-                                    nous avons fait un brainstorming sur les mentors, pour avoir le plus
-                                    d’idées sur ce sujet. Puis, nous avons schématisé le déroulé du suivi de
-                                    mentorat actuel, pour pouvoir mieux repérer les points où nous pouvons
-                                    amener une amélioration.
+                                    nous avons fait un brainstorming. Puis, nous avons schématisé le déroulé du suivi de
+                                    mentorat actuel, pour repérer les points que nous pouvons
+                                    amélioré.
                                 </p>
                                 <p>
                                     En ce qui concerne le suivi du mentorat par les salariés de l’association,
                                     nous nous sommes intéressés à l’analyse de données et le traitement
                                     d’une base de données, pour concevoir un outil qui leur permettrait
-                                    d’avoir une plus value par rapport à leur système actuel.
+                                    d’avoir une plus-value par rapport à leur système actuel.
                                 </p>
                             </div>
                         </div>
@@ -123,7 +122,7 @@ const DaradjaPage = () => (
                                     utilisateur était d’abord de commenter le
                                     rendez-vous avec son étudiant, puis de prendre
                                     un autre rendez-vous sur l’application. Nous
-                                    avons rajouté une option qui est de voir les
+                                    avons ajouté une option qui est de voir les
                                     historiques des anciens rendez-vous.
                                 </p>
                             </div>
@@ -178,10 +177,10 @@ const DaradjaPage = () => (
                 <Recap>
                     <div className="col-sm-12 col-md-12">
                         <div className="daradja__recap--speech ">
-                            <h2>Ce que j'ai appris</h2>
+                            <h2>Au final</h2>
                             <p>
                                 Cet atelier UX m'a permis de savoir répondre à une demande d'un client.
-                                Et de développer une solution en adéquation avec leurs problématique.
+                                Et de développer une solution en adéquation avec leurs problématiques.
                             </p>
                         </div>
                     </div>

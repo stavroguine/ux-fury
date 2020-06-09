@@ -34,9 +34,9 @@ const TdfPage = () => (
             </section>
             <section id="tdfIntro" className="tdf__intro">
                 <Context
-                    presentation="TDF, opérateur d’infrastructure et entreprise de télécom, voulait refondre leur site intranet, en incluant des technologies plus poussées."
-                    problem="Leur ancien intranet n’était plus d’actualité au niveau du design. S’ajoutait à cela des informations qui n’étaient plus fiables et toujours visibles sur leur intranet. Ce qui pouvait fréner, voir complexifier les tâches des employés. Les employés ne trouvaient pas non plus leur place dans ce flot d’information, et demander un espace plus communautaire."
-                    resolution="Notre solution a été de refondre leur intranet sur un Sharepoint, en incluant les solutions Office 365, pour construire un intranet perrein et un espace plus communautaire avec Yammer."
+                    presentation="TDF, opérateur d’infrastructure et entreprise de télécom, voulait refondre leur site intranet, en incluant des technologies plus modernes."
+                    problem="Leur ancien intranet n’était pas moderne, pollué par des informations obsolètes. Ce qui freinait les tâches des employés. Les employés ne trouvaient pas non plus leur place dans cet intranet, et demandaient un espace plus communautaire."
+                    resolution="Nous avons proposé une refonte leur intranet sur Microsoft Sharepoint, en incluant les solutions Office 365."
                 />
             </section>
             <section id="tdfSteps" className="tdf__steps">
@@ -52,15 +52,9 @@ const TdfPage = () => (
                     <div className="tdf__steps--item">
                         <div className="row h-100">
                             <div className="sol-sm-12 col-md-4 my-auto">
-                                <h3>1. La phase de recherche</h3>
+                                <h3>La phase de recherche</h3>
                                 <p>
-                                    Nous avons commencé à entrer dans une
-                                    phase de recherche, en parcourant leur intranet
-                                    et en faisant un audit.
-                                    Ensuite, pour avoir plus de proximité avec les
-                                    futurs utilisateurs, nous avons dirigé des ateliers
-                                    de co-conception.
-                                    Chacun des ateliers avait un objectif précis.
+                                    Nous sommes entrés dans la phase de recherche, en auditant leur intranet. Ensuite nous avons dirigé des ateliers de co-conception, qui avaient des objectifs précis.
                                 </p>
                             </div>
                             <div className="sol-sm-12 col-md-8">
@@ -78,9 +72,9 @@ const TdfPage = () => (
                                 <Image alt="Les engagements TDF" filename="TDF - Screen Les engagements TDF.png" />
                             </div>
                             <div className="col-sm-12 col-md-4 my-auto">
-                                <h3>2. La phase idéation</h3>
+                                <h3>La phase idéation</h3>
                                 <p>
-                                    Une fois  les ateliers de co-conception faits, avec les verbatims et les restitutions, nous sommes passés à la phase d’idéation. Nous avons construit l’arborescence, que nous avons revu ensemble avec  le client. Nous avons défini des parcours utilisateurs.
+                                    Une fois  les ateliers de co-conception faits, avec les verbatims et les restitutions, nous sommes passés à la phase d’idéation. Nous avons construit l’arborescence, que nous avons revue ensemble avec  le client. Nous avons défini des parcours utilisateurs.
                                     <br />
                                     Les outils utilisés: Powerpoint, Excel.
                                 </p>
@@ -90,9 +84,9 @@ const TdfPage = () => (
                     <div className="tdf__steps--item">
                         <div className="row h-100">
                             <div className="col-sm-12 col-md-4 my-auto">
-                                <h3>3. La phase de production</h3>
+                                <h3>La phase de production</h3>
                                 <p>
-                                    Une fois l’arborescence validé, nous sommes passés au zoning des différentes pages, puis nous avons construit les wireframes, les mocks-up, pour les finaliser sur le Sharepoint du client.
+                                    Une fois l’arborescence validée, nous sommes passés au zoning des différentes pages, puis nous avons construit les wireframes, les mocks-up, pour les finaliser sur le Sharepoint du client.
                                     <br />
                                     Les outils utilisés: Wireframing à la main, Adobe XD.
                                 </p>
@@ -108,7 +102,7 @@ const TdfPage = () => (
                 <Recap color="green">
                     <div className="col-sm-12 col-md-12">
                         <div className="tdf__recap--speech ">
-                            <h2>Ce que j'ai appris</h2>
+                            <h2>Au final</h2>
                             <p>
                                 J'ai appris à mener une partie de projet, à mieux cibler les expériences
                                 utilisateurs. Cela m'a permis de mener une démarche plus profonde dans
