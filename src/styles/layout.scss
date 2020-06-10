@@ -200,11 +200,11 @@ header {
   background-color: $white-back;
 
   img {
-    height: 9.375rem !important;
-    margin-left: 1.5625rem;
-    margin-top: 1.5625rem;
+    height: 150px !important;
+    margin-left: 25px;
+    margin-top: 25px;
 
-    width: 9.375rem !important;
+    width: 150px !important;
 
   }
 
@@ -227,8 +227,8 @@ header {
   span {
     background-color: $prune;
     color: white !important;
-    left: 52%;
-    font-size: 1.5rem;
+    left: 41%;
+    font-size: 24px;
     font-weight: bold;
     position: absolute;
     opacity: 0;
@@ -240,9 +240,6 @@ header {
     width: 63%;
     z-index: 3;
 
-    &.span-tdf {
-      left: 41%;
-    }
   }
 }
 

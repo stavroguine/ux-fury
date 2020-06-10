@@ -20,7 +20,7 @@ function OtherProject() {
                                 </AniLink>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-3 pl-5">
+                        <div className="col-sm-12 col-md-3 ">
                             <div className="other-project">
                                 <AniLink bg="#226D84" cover direction="bottom"  duration={2} to='/projects/ffyn'>
                                     <span className="span-ffyn">FFYN</span>
@@ -28,7 +28,7 @@ function OtherProject() {
                                 </AniLink>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-3 pl-5">
+                        <div className="col-sm-12 col-md-3 ">
                             <div className="other-project">
                                 <AniLink bg="#2F7B27" cover direction="bottom"  duration={2} to='/projects/daradja'>
                                     <span className="span-daradja">Daradja</span>
@@ -36,7 +36,7 @@ function OtherProject() {
                                 </AniLink>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-3 pl-5">
+                        <div className="col-sm-12 col-md-3 ">
                             <div className="other-project">
                                 <AniLink bg="#922E63" cover direction="bottom"  duration={2} to='/projects/peneloppe'>
                                     <span className="span-peneloppe">Peneloppe</span>

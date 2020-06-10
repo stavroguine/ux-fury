@@ -44,6 +44,15 @@
       margin-bottom: 3.125rem;
     }
 
+    .container {
+      max-width: 1180px;
+    }
+
+    .img-step {
+      max-height: 313px;
+      max-width: 560px;
+    }
+
     .leaf:nth-child(2) {
       top: 50%;
       transform: scaleX(-1) rotate(180deg);
@@ -69,34 +78,24 @@
       padding: 0;
     }
 
-
-
     .highlight {
       color: $green;
     }
 
-    .img-step {
-      height: 320px;
-      width: 570px;
-      &:first-child {
-        bottom: 0;
-        position: absolute;
-      }
-      &:nth-child(3) {
-        bottom: 0;
-        position: absolute;
-      }
-    }
-
     &--item {
       margin-top: 3.125rem;
-
         .h-42 {
           height: 42%;
+          @media screen and (min-width: 1904px)  {
+            height: 43%;
+          }
         }
 
         .h-45 {
-          height: 45%;
+          height: 46%;
+          @media screen and (min-width: 1904px)  {
+            height: 50%;
+          }
         }
     }
   }

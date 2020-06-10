@@ -29,7 +29,7 @@ const Image = props => (
             return null;
           }
 
-          return <Img alt={props.alt} fluid={image.node.childImageSharp.fluid} />;
+          return <Img alt={props.alt} className={props.className} fluid={image.node.childImageSharp.fluid} />;
         }}
     />
 );

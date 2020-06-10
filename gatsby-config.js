@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/ux-fury",
   siteMetadata: {
     title: `La fureur de l'UX`,
     description: `Site porfolio de Gaëlle Molina, UX/UI designer junior à Paris`,

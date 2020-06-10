@@ -102,7 +102,7 @@ const FfynPage = () => (
                         </div>
                         <div className="row h-100">
                             <div className="col-sm-12 col-md-12 pl-0">
-                                <Image alt="Ffyn Nouveau post" filename="3-Ffyn - new post design - FHD.png" className="img-step" />
+                                <Image alt="Ffyn Nouveau post" filename="3-Ffyn - new post design - FHD.png" />
                             </div>
                         </div>
                     </div>

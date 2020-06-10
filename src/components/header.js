@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.png'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 class Header extends Component {
-    constructor (props) {
-        super(props);
+    componentDidMount (props) {
+        AOS.init();
+
+        // super(props);
         if (typeof window !== 'undefined') {
             let prevScrollpos = window.pageYOffset;
 
