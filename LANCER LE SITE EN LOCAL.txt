@@ -1,0 +1,6 @@
+dans la barre d'adresse de l'explorateur de fichier, taper : cmd puis entrée
+
+Dans le terminal (fenêtre noire), taper : npm start puis entrée
+Pour couper le serveur : ctrl + c
+
+http://localhost:8000/
